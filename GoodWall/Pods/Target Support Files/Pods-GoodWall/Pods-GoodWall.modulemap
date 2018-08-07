@@ -1,0 +1,6 @@
+framework module Pods_GoodWall {
+  umbrella header "Pods-GoodWall-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DB451B1C46E384CCD5CEC3E /* Pods_GoodWallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9218740A64894EDAA4BD6D1 /* Pods_GoodWallUITests.framework */; };
+		5BB738208792A088CE15049C /* Pods_GoodWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F0D1E484A8D6EDBB2711E /* Pods_GoodWall.framework */; };
+		9EBA953C9E2D2E27B9D6799D /* Pods_GoodWallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EF74D973FCC29FC9DA4CE7 /* Pods_GoodWallTests.framework */; };
+		F70124C821192EF500FB6555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124C721192EF500FB6555 /* AppDelegate.swift */; };
+		F70124CA21192EF500FB6555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124C921192EF500FB6555 /* ViewController.swift */; };
+		F70124CD21192EF500FB6555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70124CB21192EF500FB6555 /* Main.storyboard */; };
+		F70124CF21192EF500FB6555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70124CE21192EF500FB6555 /* Assets.xcassets */; };
+		F70124D221192EF500FB6555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70124D021192EF500FB6555 /* LaunchScreen.storyboard */; };
+		F70124DD21192EF500FB6555 /* GoodWallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124DC21192EF500FB6555 /* GoodWallTests.swift */; };
+		F70124E821192EF500FB6555 /* GoodWallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124E721192EF500FB6555 /* GoodWallUITests.swift */; };
+		F70124F621192F4700FB6555 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F70124F521192F4700FB6555 /* Podfile */; };
+		F70125012119305A00FB6555 /* Country.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70125002119305A00FB6555 /* Country.storyboard */; };
+		F70125032119308800FB6555 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70125022119308800FB6555 /* CountryListViewController.swift */; };
+		F7012507211931A700FB6555 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7012505211931A700FB6555 /* CountryTableViewCell.swift */; };
+		F7012508211931A700FB6555 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7012506211931A700FB6555 /* CountryTableViewCell.xib */; };
+		F701250A2119360000FB6555 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70125092119360000FB6555 /* CountryViewModel.swift */; };
+		F701250C2119361E00FB6555 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F701250B2119361E00FB6555 /* APIHandler.swift */; };
+		F701250E2119363000FB6555 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F701250D2119363000FB6555 /* Country.swift */; };
+		F70125122119365200FB6555 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70125112119365200FB6555 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70124D921192EF500FB6555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70124BC21192EF500FB6555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70124C321192EF500FB6555;
+			remoteInfo = GoodWall;
+		};
+		F70124E421192EF500FB6555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70124BC21192EF500FB6555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70124C321192EF500FB6555;
+			remoteInfo = GoodWall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1445C135CD1A6F79935D7ABA /* Pods-GoodWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall.release.xcconfig"; sourceTree = "<group>"; };
+		56859A2C384FB5D0A2CB3DC7 /* Pods-GoodWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallTests/Pods-GoodWallTests.release.xcconfig"; sourceTree = "<group>"; };
+		62AD98221038314E74879A87 /* Pods-GoodWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallTests/Pods-GoodWallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62EF74D973FCC29FC9DA4CE7 /* Pods_GoodWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829FB176C1FF4B1E1E1E710A /* Pods-GoodWallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallUITests/Pods-GoodWallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E9F0D1E484A8D6EDBB2711E /* Pods_GoodWall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECFCBE6BE70F47C9A4BF2B7 /* Pods-GoodWallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallUITests/Pods-GoodWallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9218740A64894EDAA4BD6D1 /* Pods_GoodWallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6515C5E00DBB5278D05DA8C /* Pods-GoodWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall.debug.xcconfig"; sourceTree = "<group>"; };
+		F70124C421192EF500FB6555 /* GoodWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70124C721192EF500FB6555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70124C921192EF500FB6555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F70124CC21192EF500FB6555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F70124CE21192EF500FB6555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70124D121192EF500FB6555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F70124D321192EF500FB6555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70124D821192EF500FB6555 /* GoodWallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodWallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70124DC21192EF500FB6555 /* GoodWallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWallTests.swift; sourceTree = "<group>"; };
+		F70124DE21192EF500FB6555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70124E321192EF500FB6555 /* GoodWallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodWallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70124E721192EF500FB6555 /* GoodWallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWallUITests.swift; sourceTree = "<group>"; };
+		F70124E921192EF500FB6555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70124F521192F4700FB6555 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F70125002119305A00FB6555 /* Country.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Country.storyboard; sourceTree = "<group>"; };
+		F70125022119308800FB6555 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		F7012505211931A700FB6555 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		F7012506211931A700FB6555 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		F70125092119360000FB6555 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		F701250B2119361E00FB6555 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		F701250D2119363000FB6555 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F70125112119365200FB6555 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70124C121192EF500FB6555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB738208792A088CE15049C /* Pods_GoodWall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70124D521192EF500FB6555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBA953C9E2D2E27B9D6799D /* Pods_GoodWallTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70124E021192EF500FB6555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB451B1C46E384CCD5CEC3E /* Pods_GoodWallUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97BF293FFE0D4F79C3A4534D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E9F0D1E484A8D6EDBB2711E /* Pods_GoodWall.framework */,
+				62EF74D973FCC29FC9DA4CE7 /* Pods_GoodWallTests.framework */,
+				A9218740A64894EDAA4BD6D1 /* Pods_GoodWallUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE656A00673256575D395207 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6515C5E00DBB5278D05DA8C /* Pods-GoodWall.debug.xcconfig */,
+				1445C135CD1A6F79935D7ABA /* Pods-GoodWall.release.xcconfig */,
+				62AD98221038314E74879A87 /* Pods-GoodWallTests.debug.xcconfig */,
+				56859A2C384FB5D0A2CB3DC7 /* Pods-GoodWallTests.release.xcconfig */,
+				829FB176C1FF4B1E1E1E710A /* Pods-GoodWallUITests.debug.xcconfig */,
+				9ECFCBE6BE70F47C9A4BF2B7 /* Pods-GoodWallUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F70124BB21192EF500FB6555 = {
+			isa = PBXGroup;
+			children = (
+				F70124C721192EF500FB6555 /* AppDelegate.swift */,
+				F70124C621192EF500FB6555 /* GoodWall */,
+				F70124DB21192EF500FB6555 /* GoodWallTests */,
+				F70124E621192EF500FB6555 /* GoodWallUITests */,
+				F70124C521192EF500FB6555 /* Products */,
+				CE656A00673256575D395207 /* Pods */,
+				97BF293FFE0D4F79C3A4534D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F70124C521192EF500FB6555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70124C421192EF500FB6555 /* GoodWall.app */,
+				F70124D821192EF500FB6555 /* GoodWallTests.xctest */,
+				F70124E321192EF500FB6555 /* GoodWallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70124C621192EF500FB6555 /* GoodWall */ = {
+			isa = PBXGroup;
+			children = (
+				F70124FA21192F7600FB6555 /* Utility */,
+				F70124F921192F6B00FB6555 /* Model */,
+				F70124F821192F6500FB6555 /* ViewModel */,
+				F70124F721192F6100FB6555 /* View */,
+				F70124F521192F4700FB6555 /* Podfile */,
+				F70124C921192EF500FB6555 /* ViewController.swift */,
+				F70124CB21192EF500FB6555 /* Main.storyboard */,
+				F70124CE21192EF500FB6555 /* Assets.xcassets */,
+				F70124D021192EF500FB6555 /* LaunchScreen.storyboard */,
+				F70124D321192EF500FB6555 /* Info.plist */,
+			);
+			path = GoodWall;
+			sourceTree = "<group>";
+		};
+		F70124DB21192EF500FB6555 /* GoodWallTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70124DC21192EF500FB6555 /* GoodWallTests.swift */,
+				F70124DE21192EF500FB6555 /* Info.plist */,
+			);
+			path = GoodWallTests;
+			sourceTree = "<group>";
+		};
+		F70124E621192EF500FB6555 /* GoodWallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70124E721192EF500FB6555 /* GoodWallUITests.swift */,
+				F70124E921192EF500FB6555 /* Info.plist */,
+			);
+			path = GoodWallUITests;
+			sourceTree = "<group>";
+		};
+		F70124F721192F6100FB6555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F70124FF2119303C00FB6555 /* Storyboards */,
+				F70124FE21192FA200FB6555 /* ViewController */,
+				F70124FD21192F9B00FB6555 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F70124F821192F6500FB6555 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F70125092119360000FB6555 /* CountryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F70124F921192F6B00FB6555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F701250D2119363000FB6555 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F70124FA21192F7600FB6555 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F70124FC21192F9500FB6555 /* Constant */,
+				F70124FB21192F8000FB6555 /* NetworkManager */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F70124FB21192F8000FB6555 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F701250B2119361E00FB6555 /* APIHandler.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		F70124FC21192F9500FB6555 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				F70125112119365200FB6555 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		F70124FD21192F9B00FB6555 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F70125042119318400FB6555 /* CountryCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F70124FE21192FA200FB6555 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F70125022119308800FB6555 /* CountryListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F70124FF2119303C00FB6555 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F70125002119305A00FB6555 /* Country.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F70125042119318400FB6555 /* CountryCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7012505211931A700FB6555 /* CountryTableViewCell.swift */,
+				F7012506211931A700FB6555 /* CountryTableViewCell.xib */,
+			);
+			path = CountryCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70124C321192EF500FB6555 /* GoodWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70124EC21192EF500FB6555 /* Build configuration list for PBXNativeTarget "GoodWall" */;
+			buildPhases = (
+				2799B46C73560389016C899D /* [CP] Check Pods Manifest.lock */,
+				F70124C021192EF500FB6555 /* Sources */,
+				F70124C121192EF500FB6555 /* Frameworks */,
+				F70124C221192EF500FB6555 /* Resources */,
+				538EB0846DFCD8323EEB00B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodWall;
+			productName = GoodWall;
+			productReference = F70124C421192EF500FB6555 /* GoodWall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70124D721192EF500FB6555 /* GoodWallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70124EF21192EF500FB6555 /* Build configuration list for PBXNativeTarget "GoodWallTests" */;
+			buildPhases = (
+				26A853278F5A1C03FF750145 /* [CP] Check Pods Manifest.lock */,
+				F70124D421192EF500FB6555 /* Sources */,
+				F70124D521192EF500FB6555 /* Frameworks */,
+				F70124D621192EF500FB6555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70124DA21192EF500FB6555 /* PBXTargetDependency */,
+			);
+			name = GoodWallTests;
+			productName = GoodWallTests;
+			productReference = F70124D821192EF500FB6555 /* GoodWallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F70124E221192EF500FB6555 /* GoodWallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70124F221192EF500FB6555 /* Build configuration list for PBXNativeTarget "GoodWallUITests" */;
+			buildPhases = (
+				85AA0461E7039D2F65D3C8BB /* [CP] Check Pods Manifest.lock */,
+				F70124DF21192EF500FB6555 /* Sources */,
+				F70124E021192EF500FB6555 /* Frameworks */,
+				F70124E121192EF500FB6555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70124E521192EF500FB6555 /* PBXTargetDependency */,
+			);
+			name = GoodWallUITests;
+			productName = GoodWallUITests;
+			productReference = F70124E321192EF500FB6555 /* GoodWallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70124BC21192EF500FB6555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Keith Gapusan";
+				TargetAttributes = {
+					F70124C321192EF500FB6555 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F70124D721192EF500FB6555 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F70124C321192EF500FB6555;
+					};
+					F70124E221192EF500FB6555 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F70124C321192EF500FB6555;
+					};
+				};
+			};
+			buildConfigurationList = F70124BF21192EF500FB6555 /* Build configuration list for PBXProject "GoodWall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70124BB21192EF500FB6555;
+			productRefGroup = F70124C521192EF500FB6555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70124C321192EF500FB6555 /* GoodWall */,
+				F70124D721192EF500FB6555 /* GoodWallTests */,
+				F70124E221192EF500FB6555 /* GoodWallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70124C221192EF500FB6555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7012508211931A700FB6555 /* CountryTableViewCell.xib in Resources */,
+				F70124D221192EF500FB6555 /* LaunchScreen.storyboard in Resources */,
+				F70125012119305A00FB6555 /* Country.storyboard in Resources */,
+				F70124CF21192EF500FB6555 /* Assets.xcassets in Resources */,
+				F70124F621192F4700FB6555 /* Podfile in Resources */,
+				F70124CD21192EF500FB6555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70124D621192EF500FB6555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70124E121192EF500FB6555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26A853278F5A1C03FF750145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodWallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2799B46C73560389016C899D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodWall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		538EB0846DFCD8323EEB00B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85AA0461E7039D2F65D3C8BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodWallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70124C021192EF500FB6555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F701250E2119363000FB6555 /* Country.swift in Sources */,
+				F7012507211931A700FB6555 /* CountryTableViewCell.swift in Sources */,
+				F70124CA21192EF500FB6555 /* ViewController.swift in Sources */,
+				F70125122119365200FB6555 /* Constant.swift in Sources */,
+				F70125032119308800FB6555 /* CountryListViewController.swift in Sources */,
+				F701250C2119361E00FB6555 /* APIHandler.swift in Sources */,
+				F70124C821192EF500FB6555 /* AppDelegate.swift in Sources */,
+				F701250A2119360000FB6555 /* CountryViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70124D421192EF500FB6555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70124DD21192EF500FB6555 /* GoodWallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70124DF21192EF500FB6555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70124E821192EF500FB6555 /* GoodWallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70124DA21192EF500FB6555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70124C321192EF500FB6555 /* GoodWall */;
+			targetProxy = F70124D921192EF500FB6555 /* PBXContainerItemProxy */;
+		};
+		F70124E521192EF500FB6555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70124C321192EF500FB6555 /* GoodWall */;
+			targetProxy = F70124E421192EF500FB6555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F70124CB21192EF500FB6555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70124CC21192EF500FB6555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F70124D021192EF500FB6555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70124D121192EF500FB6555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70124EA21192EF500FB6555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70124EB21192EF500FB6555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70124ED21192EF500FB6555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6515C5E00DBB5278D05DA8C /* Pods-GoodWall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
+				INFOPLIST_FILE = GoodWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.krsgapusan.GoodWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70124EE21192EF500FB6555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1445C135CD1A6F79935D7ABA /* Pods-GoodWall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
+				INFOPLIST_FILE = GoodWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.krsgapusan.GoodWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F70124F021192EF500FB6555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AD98221038314E74879A87 /* Pods-GoodWallTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
+				INFOPLIST_FILE = GoodWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.krsgapusan.GoodWallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodWall.app/GoodWall";
+			};
+			name = Debug;
+		};
+		F70124F121192EF500FB6555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56859A2C384FB5D0A2CB3DC7 /* Pods-GoodWallTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
+				INFOPLIST_FILE = GoodWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.krsgapusan.GoodWallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodWall.app/GoodWall";
+			};
+			name = Release;
+		};
+		F70124F321192EF500FB6555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829FB176C1FF4B1E1E1E710A /* Pods-GoodWallUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
+				INFOPLIST_FILE = GoodWallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.krsgapusan.GoodWallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodWall;
+			};
+			name = Debug;
+		};
+		F70124F421192EF500FB6555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECFCBE6BE70F47C9A4BF2B7 /* Pods-GoodWallUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
+				INFOPLIST_FILE = GoodWallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.krsgapusan.GoodWallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodWall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70124BF21192EF500FB6555 /* Build configuration list for PBXProject "GoodWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70124EA21192EF500FB6555 /* Debug */,
+				F70124EB21192EF500FB6555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70124EC21192EF500FB6555 /* Build configuration list for PBXNativeTarget "GoodWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70124ED21192EF500FB6555 /* Debug */,
+				F70124EE21192EF500FB6555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70124EF21192EF500FB6555 /* Build configuration list for PBXNativeTarget "GoodWallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70124F021192EF500FB6555 /* Debug */,
+				F70124F121192EF500FB6555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70124F221192EF500FB6555 /* Build configuration list for PBXNativeTarget "GoodWallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70124F321192EF500FB6555 /* Debug */,
+				F70124F421192EF500FB6555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70124BC21192EF500FB6555 /* Project object */;
+}
