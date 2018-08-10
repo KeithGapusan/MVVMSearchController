@@ -41,15 +41,16 @@ class CountryViewModel: NSObject {
         }
 
         filteredCountry = filtered
-        for data in filteredCountry{
-             print(data)
-        }
+//        for data in filteredCountry{
+//             print(data)
+//        }
        
 
     }
     
     func fetchAllCountryData(_  completion : @escaping (_ error : Error? , _ messageResult :[String:Any]?) -> () ) {
-        APIHandler.shared.getListOfCountry(Constant.baseUrl) { (json, error) in
+       // print(1123323542.asWord)
+        APIHandler.shared.getListOfCountry(Constant.baseUrl) {[weak self] (json, error) in
             if error != nil {
                 print("an error accured")
                 completion(error , nil)
@@ -57,12 +58,18 @@ class CountryViewModel: NSObject {
              
                 
                 for data in json!{
-                    self.listCountry.append(Country.init(data as [String:Any])!)
+                    self?.listCountry.append(Country.init(data as [String:Any])!)
                 }
                  completion(nil , nil)
             }
         }
-       
-        
+    }
+}
+public extension Int {
+    public var asWord: String {
+        let numberValue = NSNumber(value: self)
+        var formatter = NumberFormatter()
+        formatter.numberStyle = .spellOut
+        return formatter.string(from: numberValue)!
     }
 }
