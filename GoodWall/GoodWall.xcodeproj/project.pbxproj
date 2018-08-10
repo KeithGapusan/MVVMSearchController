@@ -26,6 +26,148 @@
 		F701250C2119361E00FB6555 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F701250B2119361E00FB6555 /* APIHandler.swift */; };
 		F701250E2119363000FB6555 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F701250D2119363000FB6555 /* Country.swift */; };
 		F70125122119365200FB6555 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70125112119365200FB6555 /* Constant.swift */; };
+		F71D2068211D285A00C3132E /* ExperienceFollowStatuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D205F211D285900C3132E /* ExperienceFollowStatuse.swift */; };
+		F71D2069211D285A00C3132E /* ExperienceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2060211D285900C3132E /* ExperienceLocation.swift */; };
+		F71D206A211D285A00C3132E /* ExperienceRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2061211D285900C3132E /* ExperienceRootClass.swift */; };
+		F71D206B211D285A00C3132E /* ExperiencePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2062211D285900C3132E /* ExperiencePicture.swift */; };
+		F71D206C211D285A00C3132E /* ExperienceUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2063211D285900C3132E /* ExperienceUser.swift */; };
+		F71D206D211D285A00C3132E /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2064211D285900C3132E /* Experience.swift */; };
+		F71D206E211D285A00C3132E /* ExperienceComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2065211D285900C3132E /* ExperienceComment.swift */; };
+		F71D206F211D285A00C3132E /* ExperiencePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2066211D285900C3132E /* ExperiencePayload.swift */; };
+		F71D2070211D285A00C3132E /* ExperienceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2067211D285900C3132E /* ExperienceData.swift */; };
+		F71D2073211D5A1400C3132E /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2072211D5A1400C3132E /* ExperienceViewController.swift */; };
+		F71D2077211D5ACA00C3132E /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2075211D5ACA00C3132E /* ExperienceTableViewCell.swift */; };
+		F71D2078211D5ACA00C3132E /* ExperienceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71D2076211D5ACA00C3132E /* ExperienceTableViewCell.xib */; };
+		F71D20FC211D725700C3132E /* Goodwall-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D207B211D723E00C3132E /* Goodwall-18.svg */; };
+		F71D20FD211D725700C3132E /* Star-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D207C211D723F00C3132E /* Star-12.svg */; };
+		F71D20FE211D725700C3132E /* Video-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D207D211D723F00C3132E /* Video-24.svg */; };
+		F71D20FF211D725700C3132E /* Unmute-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D207E211D723F00C3132E /* Unmute-18.svg */; };
+		F71D2100211D725700C3132E /* Influencer-Tick-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D207F211D723F00C3132E /* Influencer-Tick-5.svg */; };
+		F71D2101211D725700C3132E /* Gem-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2080211D724000C3132E /* Gem-18.svg */; };
+		F71D2102211D725700C3132E /* Gender-Other-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2081211D724000C3132E /* Gender-Other-18.svg */; };
+		F71D2103211D725700C3132E /* Search-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2082211D724000C3132E /* Search-12.svg */; };
+		F71D2104211D725700C3132E /* Settings-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2083211D724000C3132E /* Settings-18.svg */; };
+		F71D2105211D725700C3132E /* Teacher-Student-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2084211D724100C3132E /* Teacher-Student-18.svg */; };
+		F71D2106211D725700C3132E /* English-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2085211D724100C3132E /* English-18.svg */; };
+		F71D2107211D725700C3132E /* Gem-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2086211D724100C3132E /* Gem-24.svg */; };
+		F71D2108211D725700C3132E /* Help-Hexagon-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2087211D724100C3132E /* Help-Hexagon-18.svg */; };
+		F71D2109211D725700C3132E /* Mute-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2088211D724100C3132E /* Mute-18.svg */; };
+		F71D210A211D725700C3132E /* Phone-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2089211D724200C3132E /* Phone-18.svg */; };
+		F71D210B211D725700C3132E /* Chevron-Left-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D208A211D724200C3132E /* Chevron-Left-12.svg */; };
+		F71D210C211D725700C3132E /* Bookmark-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D208B211D724200C3132E /* Bookmark-18.svg */; };
+		F71D210D211D725700C3132E /* Cake-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D208C211D724200C3132E /* Cake-18.svg */; };
+		F71D210E211D725700C3132E /* House-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D208D211D724200C3132E /* House-18.svg */; };
+		F71D210F211D725700C3132E /* Line-Messenger.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D208E211D724300C3132E /* Line-Messenger.svg */; };
+		F71D2110211D725700C3132E /* Briefcase-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D208F211D724300C3132E /* Briefcase-18.svg */; };
+		F71D2111211D725700C3132E /* Hashtag-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2090211D724300C3132E /* Hashtag-12.svg */; };
+		F71D2112211D725700C3132E /* SMS.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2091211D724300C3132E /* SMS.svg */; };
+		F71D2113211D725700C3132E /* Language-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2092211D724300C3132E /* Language-24.svg */; };
+		F71D2114211D725700C3132E /* Channel-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2093211D724300C3132E /* Channel-18.svg */; };
+		F71D2115211D725700C3132E /* Pin-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2094211D724400C3132E /* Pin-12.svg */; };
+		F71D2116211D725700C3132E /* Check-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2095211D724400C3132E /* Check-10.svg */; };
+		F71D2117211D725700C3132E /* Experience-10-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2096211D724400C3132E /* Experience-10-24.svg */; };
+		F71D2118211D725700C3132E /* Filter-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2097211D724400C3132E /* Filter-18.svg */; };
+		F71D2119211D725700C3132E /* English-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2098211D724400C3132E /* English-24.svg */; };
+		F71D211A211D725700C3132E /* Heart-Filled-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D2099211D724400C3132E /* Heart-Filled-18.svg */; };
+		F71D211B211D725700C3132E /* Follow-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D209A211D724500C3132E /* Follow-18.svg */; };
+		F71D211C211D725700C3132E /* Ambassador-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D209B211D724500C3132E /* Ambassador-18.svg */; };
+		F71D211D211D725700C3132E /* Chevron-Right-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D209C211D724500C3132E /* Chevron-Right-10.svg */; };
+		F71D211E211D725700C3132E /* Graduate-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D209D211D724500C3132E /* Graduate-18.svg */; };
+		F71D211F211D725700C3132E /* Lightning-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D209E211D724500C3132E /* Lightning-18.svg */; };
+		F71D2120211D725700C3132E /* Invite-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D209F211D724500C3132E /* Invite-18.svg */; };
+		F71D2121211D725700C3132E /* Follow-Check-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A0211D724600C3132E /* Follow-Check-18.svg */; };
+		F71D2122211D725700C3132E /* Report-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A1211D724600C3132E /* Report-18.svg */; };
+		F71D2123211D725700C3132E /* Chevron-Right-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A2211D724600C3132E /* Chevron-Right-18.svg */; };
+		F71D2124211D725700C3132E /* Chevron-Up-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A3211D724700C3132E /* Chevron-Up-18.svg */; };
+		F71D2125211D725700C3132E /* Channel-Leave-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A4211D724700C3132E /* Channel-Leave-18.svg */; };
+		F71D2126211D725700C3132E /* University-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A5211D724700C3132E /* University-24.svg */; };
+		F71D2127211D725700C3132E /* Flag-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A6211D724700C3132E /* Flag-24.svg */; };
+		F71D2128211D725700C3132E /* Follow-Pending-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A7211D724700C3132E /* Follow-Pending-18.svg */; };
+		F71D2129211D725700C3132E /* Experience-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A8211D724700C3132E /* Experience-18.svg */; };
+		F71D212A211D725700C3132E /* Heart-Filled-40.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20A9211D724800C3132E /* Heart-Filled-40.svg */; };
+		F71D212B211D725700C3132E /* Channel-Delete-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20AA211D724800C3132E /* Channel-Delete-18.svg */; };
+		F71D212C211D725700C3132E /* Envelope-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20AB211D724800C3132E /* Envelope-18.svg */; };
+		F71D212D211D725700C3132E /* Whatsapp.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20AC211D724800C3132E /* Whatsapp.svg */; };
+		F71D212E211D725700C3132E /* Edit-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20AD211D724800C3132E /* Edit-18.svg */; };
+		F71D212F211D725700C3132E /* Heart-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20AE211D724800C3132E /* Heart-18.svg */; };
+		F71D2130211D725700C3132E /* X-Circle-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20AF211D724900C3132E /* X-Circle-12.svg */; };
+		F71D2131211D725700C3132E /* Dots-Horizontal-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B0211D724900C3132E /* Dots-Horizontal-18.svg */; };
+		F71D2132211D725700C3132E /* Heart-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B1211D724900C3132E /* Heart-12.svg */; };
+		F71D2133211D725700C3132E /* Chevron-Left-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B2211D724900C3132E /* Chevron-Left-10.svg */; };
+		F71D2134211D725700C3132E /* Briefcase-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B3211D724A00C3132E /* Briefcase-24.svg */; };
+		F71D2135211D725700C3132E /* Person-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B4211D724A00C3132E /* Person-24.svg */; };
+		F71D2136211D725700C3132E /* Chest-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B5211D724A00C3132E /* Chest-18.svg */; };
+		F71D2137211D725700C3132E /* To-Do-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B6211D724A00C3132E /* To-Do-18.svg */; };
+		F71D2138211D725700C3132E /* University-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B7211D724A00C3132E /* University-18.svg */; };
+		F71D2139211D725700C3132E /* Hashtag-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B8211D724A00C3132E /* Hashtag-18.svg */; };
+		F71D213A211D725700C3132E /* Gender-Male-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20B9211D724B00C3132E /* Gender-Male-18.svg */; };
+		F71D213B211D725700C3132E /* Channel-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20BA211D724B00C3132E /* Channel-12.svg */; };
+		F71D213C211D725700C3132E /* Gender-Other-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20BB211D724B00C3132E /* Gender-Other-24.svg */; };
+		F71D213D211D725700C3132E /* FB-Messenger.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20BC211D724C00C3132E /* FB-Messenger.svg */; };
+		F71D213E211D725700C3132E /* Pin-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20BD211D724C00C3132E /* Pin-24.svg */; };
+		F71D213F211D725700C3132E /* Play-Hexagon-32.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20BE211D724C00C3132E /* Play-Hexagon-32.svg */; };
+		F71D2140211D725700C3132E /* Skip-40.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20BF211D724C00C3132E /* Skip-40.svg */; };
+		F71D2141211D725700C3132E /* Chevron-Down-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C0211D724C00C3132E /* Chevron-Down-18.svg */; };
+		F71D2142211D725700C3132E /* Ribbon-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C1211D724C00C3132E /* Ribbon-18.svg */; };
+		F71D2143211D725700C3132E /* Star-Filled-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C2211D724D00C3132E /* Star-Filled-18.svg */; };
+		F71D2144211D725700C3132E /* Link-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C3211D724D00C3132E /* Link-18.svg */; };
+		F71D2145211D725700C3132E /* Settings-Sliders-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C4211D724D00C3132E /* Settings-Sliders-12.svg */; };
+		F71D2146211D725700C3132E /* Chevron-Left-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C5211D724D00C3132E /* Chevron-Left-18.svg */; };
+		F71D2147211D725700C3132E /* Cake-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C6211D724D00C3132E /* Cake-24.svg */; };
+		F71D2148211D725700C3132E /* Camera-Add-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C7211D724E00C3132E /* Camera-Add-24.svg */; };
+		F71D2149211D725700C3132E /* Plus-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C8211D724E00C3132E /* Plus-12.svg */; };
+		F71D214A211D725700C3132E /* Channel-Create-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20C9211D724E00C3132E /* Channel-Create-18.svg */; };
+		F71D214B211D725700C3132E /* Book-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20CA211D724E00C3132E /* Book-18.svg */; };
+		F71D214C211D725700C3132E /* Channel-Private-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20CB211D724E00C3132E /* Channel-Private-12.svg */; };
+		F71D214D211D725700C3132E /* Book-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20CC211D724E00C3132E /* Book-24.svg */; };
+		F71D214E211D725700C3132E /* Ambassador-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20CD211D724F00C3132E /* Ambassador-12.svg */; };
+		F71D214F211D725700C3132E /* School-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20CE211D724F00C3132E /* School-18.svg */; };
+		F71D2150211D725700C3132E /* Message-Plus-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20CF211D724F00C3132E /* Message-Plus-18.svg */; };
+		F71D2151211D725700C3132E /* Congrats-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D0211D724F00C3132E /* Congrats-18.svg */; };
+		F71D2152211D725700C3132E /* Person-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D1211D724F00C3132E /* Person-12.svg */; };
+		F71D2153211D725700C3132E /* Share-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D2211D725000C3132E /* Share-18.svg */; };
+		F71D2154211D725700C3132E /* Gender-Female-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D3211D725000C3132E /* Gender-Female-18.svg */; };
+		F71D2155211D725700C3132E /* Person-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D4211D725000C3132E /* Person-18.svg */; };
+		F71D2156211D725700C3132E /* School-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D5211D725000C3132E /* School-24.svg */; };
+		F71D2157211D725700C3132E /* X-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D6211D725000C3132E /* X-12.svg */; };
+		F71D2158211D725700C3132E /* Keyboard-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D7211D725000C3132E /* Keyboard-18.svg */; };
+		F71D2159211D725700C3132E /* Camera-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D8211D725100C3132E /* Camera-18.svg */; };
+		F71D215A211D725700C3132E /* Company-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20D9211D725100C3132E /* Company-24.svg */; };
+		F71D215B211D725700C3132E /* Diploma-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20DA211D725100C3132E /* Diploma-18.svg */; };
+		F71D215C211D725700C3132E /* Check-Circle-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20DB211D725100C3132E /* Check-Circle-18.svg */; };
+		F71D215D211D725700C3132E /* Flag-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20DC211D725100C3132E /* Flag-18.svg */; };
+		F71D215E211D725700C3132E /* Grades-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20DD211D725100C3132E /* Grades-18.svg */; };
+		F71D215F211D725700C3132E /* Grades-Percent-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20DE211D725100C3132E /* Grades-Percent-18.svg */; };
+		F71D2160211D725700C3132E /* Comment-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20DF211D725200C3132E /* Comment-12.svg */; };
+		F71D2161211D725700C3132E /* Lightning-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E0211D725200C3132E /* Lightning-12.svg */; };
+		F71D2162211D725700C3132E /* Tuition-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E1211D725200C3132E /* Tuition-18.svg */; };
+		F71D2163211D725700C3132E /* Camera-Add-32.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E2211D725200C3132E /* Camera-Add-32.svg */; };
+		F71D2164211D725700C3132E /* Share-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E3211D725200C3132E /* Share-12.svg */; };
+		F71D2165211D725700C3132E /* Message-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E4211D725200C3132E /* Message-12.svg */; };
+		F71D2166211D725700C3132E /* X-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E5211D725300C3132E /* X-18.svg */; };
+		F71D2167211D725700C3132E /* Plus-Hexagon-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E6211D725300C3132E /* Plus-Hexagon-18.svg */; };
+		F71D2168211D725700C3132E /* X-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E7211D725300C3132E /* X-10.svg */; };
+		F71D2169211D725700C3132E /* Name-Last-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E8211D725300C3132E /* Name-Last-18.svg */; };
+		F71D216A211D725700C3132E /* Ban-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20E9211D725300C3132E /* Ban-18.svg */; };
+		F71D216B211D725700C3132E /* Experience-5-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20EA211D725400C3132E /* Experience-5-24.svg */; };
+		F71D216C211D725700C3132E /* Calendar-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20EB211D725400C3132E /* Calendar-18.svg */; };
+		F71D216D211D725700C3132E /* Experience-1-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20EC211D725400C3132E /* Experience-1-24.svg */; };
+		F71D216E211D725700C3132E /* Facebook-F.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20ED211D725400C3132E /* Facebook-F.svg */; };
+		F71D216F211D725700C3132E /* Message-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20EE211D725400C3132E /* Message-18.svg */; };
+		F71D2170211D725700C3132E /* Error-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20EF211D725400C3132E /* Error-18.svg */; };
+		F71D2171211D725700C3132E /* Globe-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F0211D725500C3132E /* Globe-18.svg */; };
+		F71D2172211D725700C3132E /* Resume-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F1211D725500C3132E /* Resume-18.svg */; };
+		F71D2173211D725700C3132E /* Video-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F2211D725500C3132E /* Video-18.svg */; };
+		F71D2174211D725700C3132E /* Company-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F3211D725600C3132E /* Company-18.svg */; };
+		F71D2175211D725700C3132E /* Name-First-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F4211D725600C3132E /* Name-First-18.svg */; };
+		F71D2176211D725700C3132E /* Pin-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F5211D725600C3132E /* Pin-18.svg */; };
+		F71D2177211D725700C3132E /* Star-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F6211D725600C3132E /* Star-18.svg */; };
+		F71D2178211D725700C3132E /* Notepad-24.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F7211D725600C3132E /* Notepad-24.svg */; };
+		F71D2179211D725700C3132E /* Chevron-Down-Circle-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F8211D725700C3132E /* Chevron-Down-Circle-10.svg */; };
+		F71D217A211D725700C3132E /* Trash-18.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20F9211D725700C3132E /* Trash-18.svg */; };
+		F71D217B211D725700C3132E /* Chevron-Up-Circle-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20FA211D725700C3132E /* Chevron-Up-Circle-10.svg */; };
+		F71D217C211D725700C3132E /* Channel-Secret-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20FB211D725700C3132E /* Channel-Secret-12.svg */; };
+		F74EDEE0211C0C5900D0F498 /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74EDEDF211C0C5900D0F498 /* Tab.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +219,148 @@
 		F701250B2119361E00FB6555 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		F701250D2119363000FB6555 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		F70125112119365200FB6555 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F71D205F211D285900C3132E /* ExperienceFollowStatuse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceFollowStatuse.swift; sourceTree = "<group>"; };
+		F71D2060211D285900C3132E /* ExperienceLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceLocation.swift; sourceTree = "<group>"; };
+		F71D2061211D285900C3132E /* ExperienceRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceRootClass.swift; sourceTree = "<group>"; };
+		F71D2062211D285900C3132E /* ExperiencePicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperiencePicture.swift; sourceTree = "<group>"; };
+		F71D2063211D285900C3132E /* ExperienceUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceUser.swift; sourceTree = "<group>"; };
+		F71D2064211D285900C3132E /* Experience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		F71D2065211D285900C3132E /* ExperienceComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceComment.swift; sourceTree = "<group>"; };
+		F71D2066211D285900C3132E /* ExperiencePayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperiencePayload.swift; sourceTree = "<group>"; };
+		F71D2067211D285900C3132E /* ExperienceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceData.swift; sourceTree = "<group>"; };
+		F71D2072211D5A1400C3132E /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		F71D2075211D5ACA00C3132E /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
+		F71D2076211D5ACA00C3132E /* ExperienceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceTableViewCell.xib; sourceTree = "<group>"; };
+		F71D207B211D723E00C3132E /* Goodwall-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Goodwall-18.svg"; sourceTree = "<group>"; };
+		F71D207C211D723F00C3132E /* Star-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Star-12.svg"; sourceTree = "<group>"; };
+		F71D207D211D723F00C3132E /* Video-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Video-24.svg"; sourceTree = "<group>"; };
+		F71D207E211D723F00C3132E /* Unmute-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Unmute-18.svg"; sourceTree = "<group>"; };
+		F71D207F211D723F00C3132E /* Influencer-Tick-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Influencer-Tick-5.svg"; sourceTree = "<group>"; };
+		F71D2080211D724000C3132E /* Gem-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gem-18.svg"; sourceTree = "<group>"; };
+		F71D2081211D724000C3132E /* Gender-Other-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gender-Other-18.svg"; sourceTree = "<group>"; };
+		F71D2082211D724000C3132E /* Search-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Search-12.svg"; sourceTree = "<group>"; };
+		F71D2083211D724000C3132E /* Settings-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Settings-18.svg"; sourceTree = "<group>"; };
+		F71D2084211D724100C3132E /* Teacher-Student-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Teacher-Student-18.svg"; sourceTree = "<group>"; };
+		F71D2085211D724100C3132E /* English-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "English-18.svg"; sourceTree = "<group>"; };
+		F71D2086211D724100C3132E /* Gem-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gem-24.svg"; sourceTree = "<group>"; };
+		F71D2087211D724100C3132E /* Help-Hexagon-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Help-Hexagon-18.svg"; sourceTree = "<group>"; };
+		F71D2088211D724100C3132E /* Mute-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mute-18.svg"; sourceTree = "<group>"; };
+		F71D2089211D724200C3132E /* Phone-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Phone-18.svg"; sourceTree = "<group>"; };
+		F71D208A211D724200C3132E /* Chevron-Left-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Left-12.svg"; sourceTree = "<group>"; };
+		F71D208B211D724200C3132E /* Bookmark-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bookmark-18.svg"; sourceTree = "<group>"; };
+		F71D208C211D724200C3132E /* Cake-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cake-18.svg"; sourceTree = "<group>"; };
+		F71D208D211D724200C3132E /* House-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "House-18.svg"; sourceTree = "<group>"; };
+		F71D208E211D724300C3132E /* Line-Messenger.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Line-Messenger.svg"; sourceTree = "<group>"; };
+		F71D208F211D724300C3132E /* Briefcase-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Briefcase-18.svg"; sourceTree = "<group>"; };
+		F71D2090211D724300C3132E /* Hashtag-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hashtag-12.svg"; sourceTree = "<group>"; };
+		F71D2091211D724300C3132E /* SMS.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMS.svg; sourceTree = "<group>"; };
+		F71D2092211D724300C3132E /* Language-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Language-24.svg"; sourceTree = "<group>"; };
+		F71D2093211D724300C3132E /* Channel-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-18.svg"; sourceTree = "<group>"; };
+		F71D2094211D724400C3132E /* Pin-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pin-12.svg"; sourceTree = "<group>"; };
+		F71D2095211D724400C3132E /* Check-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Check-10.svg"; sourceTree = "<group>"; };
+		F71D2096211D724400C3132E /* Experience-10-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Experience-10-24.svg"; sourceTree = "<group>"; };
+		F71D2097211D724400C3132E /* Filter-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Filter-18.svg"; sourceTree = "<group>"; };
+		F71D2098211D724400C3132E /* English-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "English-24.svg"; sourceTree = "<group>"; };
+		F71D2099211D724400C3132E /* Heart-Filled-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heart-Filled-18.svg"; sourceTree = "<group>"; };
+		F71D209A211D724500C3132E /* Follow-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Follow-18.svg"; sourceTree = "<group>"; };
+		F71D209B211D724500C3132E /* Ambassador-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ambassador-18.svg"; sourceTree = "<group>"; };
+		F71D209C211D724500C3132E /* Chevron-Right-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Right-10.svg"; sourceTree = "<group>"; };
+		F71D209D211D724500C3132E /* Graduate-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Graduate-18.svg"; sourceTree = "<group>"; };
+		F71D209E211D724500C3132E /* Lightning-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Lightning-18.svg"; sourceTree = "<group>"; };
+		F71D209F211D724500C3132E /* Invite-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Invite-18.svg"; sourceTree = "<group>"; };
+		F71D20A0211D724600C3132E /* Follow-Check-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Follow-Check-18.svg"; sourceTree = "<group>"; };
+		F71D20A1211D724600C3132E /* Report-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Report-18.svg"; sourceTree = "<group>"; };
+		F71D20A2211D724600C3132E /* Chevron-Right-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Right-18.svg"; sourceTree = "<group>"; };
+		F71D20A3211D724700C3132E /* Chevron-Up-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Up-18.svg"; sourceTree = "<group>"; };
+		F71D20A4211D724700C3132E /* Channel-Leave-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-Leave-18.svg"; sourceTree = "<group>"; };
+		F71D20A5211D724700C3132E /* University-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "University-24.svg"; sourceTree = "<group>"; };
+		F71D20A6211D724700C3132E /* Flag-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flag-24.svg"; sourceTree = "<group>"; };
+		F71D20A7211D724700C3132E /* Follow-Pending-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Follow-Pending-18.svg"; sourceTree = "<group>"; };
+		F71D20A8211D724700C3132E /* Experience-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Experience-18.svg"; sourceTree = "<group>"; };
+		F71D20A9211D724800C3132E /* Heart-Filled-40.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heart-Filled-40.svg"; sourceTree = "<group>"; };
+		F71D20AA211D724800C3132E /* Channel-Delete-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-Delete-18.svg"; sourceTree = "<group>"; };
+		F71D20AB211D724800C3132E /* Envelope-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Envelope-18.svg"; sourceTree = "<group>"; };
+		F71D20AC211D724800C3132E /* Whatsapp.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Whatsapp.svg; sourceTree = "<group>"; };
+		F71D20AD211D724800C3132E /* Edit-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Edit-18.svg"; sourceTree = "<group>"; };
+		F71D20AE211D724800C3132E /* Heart-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heart-18.svg"; sourceTree = "<group>"; };
+		F71D20AF211D724900C3132E /* X-Circle-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "X-Circle-12.svg"; sourceTree = "<group>"; };
+		F71D20B0211D724900C3132E /* Dots-Horizontal-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dots-Horizontal-18.svg"; sourceTree = "<group>"; };
+		F71D20B1211D724900C3132E /* Heart-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Heart-12.svg"; sourceTree = "<group>"; };
+		F71D20B2211D724900C3132E /* Chevron-Left-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Left-10.svg"; sourceTree = "<group>"; };
+		F71D20B3211D724A00C3132E /* Briefcase-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Briefcase-24.svg"; sourceTree = "<group>"; };
+		F71D20B4211D724A00C3132E /* Person-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Person-24.svg"; sourceTree = "<group>"; };
+		F71D20B5211D724A00C3132E /* Chest-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chest-18.svg"; sourceTree = "<group>"; };
+		F71D20B6211D724A00C3132E /* To-Do-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do-18.svg"; sourceTree = "<group>"; };
+		F71D20B7211D724A00C3132E /* University-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "University-18.svg"; sourceTree = "<group>"; };
+		F71D20B8211D724A00C3132E /* Hashtag-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hashtag-18.svg"; sourceTree = "<group>"; };
+		F71D20B9211D724B00C3132E /* Gender-Male-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gender-Male-18.svg"; sourceTree = "<group>"; };
+		F71D20BA211D724B00C3132E /* Channel-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-12.svg"; sourceTree = "<group>"; };
+		F71D20BB211D724B00C3132E /* Gender-Other-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gender-Other-24.svg"; sourceTree = "<group>"; };
+		F71D20BC211D724C00C3132E /* FB-Messenger.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FB-Messenger.svg"; sourceTree = "<group>"; };
+		F71D20BD211D724C00C3132E /* Pin-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pin-24.svg"; sourceTree = "<group>"; };
+		F71D20BE211D724C00C3132E /* Play-Hexagon-32.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Play-Hexagon-32.svg"; sourceTree = "<group>"; };
+		F71D20BF211D724C00C3132E /* Skip-40.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Skip-40.svg"; sourceTree = "<group>"; };
+		F71D20C0211D724C00C3132E /* Chevron-Down-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Down-18.svg"; sourceTree = "<group>"; };
+		F71D20C1211D724C00C3132E /* Ribbon-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ribbon-18.svg"; sourceTree = "<group>"; };
+		F71D20C2211D724D00C3132E /* Star-Filled-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Star-Filled-18.svg"; sourceTree = "<group>"; };
+		F71D20C3211D724D00C3132E /* Link-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Link-18.svg"; sourceTree = "<group>"; };
+		F71D20C4211D724D00C3132E /* Settings-Sliders-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Settings-Sliders-12.svg"; sourceTree = "<group>"; };
+		F71D20C5211D724D00C3132E /* Chevron-Left-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Left-18.svg"; sourceTree = "<group>"; };
+		F71D20C6211D724D00C3132E /* Cake-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Cake-24.svg"; sourceTree = "<group>"; };
+		F71D20C7211D724E00C3132E /* Camera-Add-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Camera-Add-24.svg"; sourceTree = "<group>"; };
+		F71D20C8211D724E00C3132E /* Plus-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Plus-12.svg"; sourceTree = "<group>"; };
+		F71D20C9211D724E00C3132E /* Channel-Create-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-Create-18.svg"; sourceTree = "<group>"; };
+		F71D20CA211D724E00C3132E /* Book-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Book-18.svg"; sourceTree = "<group>"; };
+		F71D20CB211D724E00C3132E /* Channel-Private-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-Private-12.svg"; sourceTree = "<group>"; };
+		F71D20CC211D724E00C3132E /* Book-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Book-24.svg"; sourceTree = "<group>"; };
+		F71D20CD211D724F00C3132E /* Ambassador-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ambassador-12.svg"; sourceTree = "<group>"; };
+		F71D20CE211D724F00C3132E /* School-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "School-18.svg"; sourceTree = "<group>"; };
+		F71D20CF211D724F00C3132E /* Message-Plus-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Message-Plus-18.svg"; sourceTree = "<group>"; };
+		F71D20D0211D724F00C3132E /* Congrats-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Congrats-18.svg"; sourceTree = "<group>"; };
+		F71D20D1211D724F00C3132E /* Person-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Person-12.svg"; sourceTree = "<group>"; };
+		F71D20D2211D725000C3132E /* Share-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Share-18.svg"; sourceTree = "<group>"; };
+		F71D20D3211D725000C3132E /* Gender-Female-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gender-Female-18.svg"; sourceTree = "<group>"; };
+		F71D20D4211D725000C3132E /* Person-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Person-18.svg"; sourceTree = "<group>"; };
+		F71D20D5211D725000C3132E /* School-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "School-24.svg"; sourceTree = "<group>"; };
+		F71D20D6211D725000C3132E /* X-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "X-12.svg"; sourceTree = "<group>"; };
+		F71D20D7211D725000C3132E /* Keyboard-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Keyboard-18.svg"; sourceTree = "<group>"; };
+		F71D20D8211D725100C3132E /* Camera-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Camera-18.svg"; sourceTree = "<group>"; };
+		F71D20D9211D725100C3132E /* Company-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Company-24.svg"; sourceTree = "<group>"; };
+		F71D20DA211D725100C3132E /* Diploma-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Diploma-18.svg"; sourceTree = "<group>"; };
+		F71D20DB211D725100C3132E /* Check-Circle-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Check-Circle-18.svg"; sourceTree = "<group>"; };
+		F71D20DC211D725100C3132E /* Flag-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flag-18.svg"; sourceTree = "<group>"; };
+		F71D20DD211D725100C3132E /* Grades-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Grades-18.svg"; sourceTree = "<group>"; };
+		F71D20DE211D725100C3132E /* Grades-Percent-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Grades-Percent-18.svg"; sourceTree = "<group>"; };
+		F71D20DF211D725200C3132E /* Comment-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Comment-12.svg"; sourceTree = "<group>"; };
+		F71D20E0211D725200C3132E /* Lightning-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Lightning-12.svg"; sourceTree = "<group>"; };
+		F71D20E1211D725200C3132E /* Tuition-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tuition-18.svg"; sourceTree = "<group>"; };
+		F71D20E2211D725200C3132E /* Camera-Add-32.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Camera-Add-32.svg"; sourceTree = "<group>"; };
+		F71D20E3211D725200C3132E /* Share-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Share-12.svg"; sourceTree = "<group>"; };
+		F71D20E4211D725200C3132E /* Message-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Message-12.svg"; sourceTree = "<group>"; };
+		F71D20E5211D725300C3132E /* X-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "X-18.svg"; sourceTree = "<group>"; };
+		F71D20E6211D725300C3132E /* Plus-Hexagon-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Plus-Hexagon-18.svg"; sourceTree = "<group>"; };
+		F71D20E7211D725300C3132E /* X-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "X-10.svg"; sourceTree = "<group>"; };
+		F71D20E8211D725300C3132E /* Name-Last-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Name-Last-18.svg"; sourceTree = "<group>"; };
+		F71D20E9211D725300C3132E /* Ban-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ban-18.svg"; sourceTree = "<group>"; };
+		F71D20EA211D725400C3132E /* Experience-5-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Experience-5-24.svg"; sourceTree = "<group>"; };
+		F71D20EB211D725400C3132E /* Calendar-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Calendar-18.svg"; sourceTree = "<group>"; };
+		F71D20EC211D725400C3132E /* Experience-1-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Experience-1-24.svg"; sourceTree = "<group>"; };
+		F71D20ED211D725400C3132E /* Facebook-F.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Facebook-F.svg"; sourceTree = "<group>"; };
+		F71D20EE211D725400C3132E /* Message-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Message-18.svg"; sourceTree = "<group>"; };
+		F71D20EF211D725400C3132E /* Error-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Error-18.svg"; sourceTree = "<group>"; };
+		F71D20F0211D725500C3132E /* Globe-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Globe-18.svg"; sourceTree = "<group>"; };
+		F71D20F1211D725500C3132E /* Resume-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Resume-18.svg"; sourceTree = "<group>"; };
+		F71D20F2211D725500C3132E /* Video-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Video-18.svg"; sourceTree = "<group>"; };
+		F71D20F3211D725600C3132E /* Company-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Company-18.svg"; sourceTree = "<group>"; };
+		F71D20F4211D725600C3132E /* Name-First-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Name-First-18.svg"; sourceTree = "<group>"; };
+		F71D20F5211D725600C3132E /* Pin-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pin-18.svg"; sourceTree = "<group>"; };
+		F71D20F6211D725600C3132E /* Star-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Star-18.svg"; sourceTree = "<group>"; };
+		F71D20F7211D725600C3132E /* Notepad-24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Notepad-24.svg"; sourceTree = "<group>"; };
+		F71D20F8211D725700C3132E /* Chevron-Down-Circle-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Down-Circle-10.svg"; sourceTree = "<group>"; };
+		F71D20F9211D725700C3132E /* Trash-18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Trash-18.svg"; sourceTree = "<group>"; };
+		F71D20FA211D725700C3132E /* Chevron-Up-Circle-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Up-Circle-10.svg"; sourceTree = "<group>"; };
+		F71D20FB211D725700C3132E /* Channel-Secret-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-Secret-12.svg"; sourceTree = "<group>"; };
+		F74EDEDF211C0C5900D0F498 /* Tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +475,7 @@
 		F70124F721192F6100FB6555 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F71D1F57211CF62300C3132E /* Resources */,
 				F70124FF2119303C00FB6555 /* Storyboards */,
 				F70124FE21192FA200FB6555 /* ViewController */,
 				F70124FD21192F9B00FB6555 /* Cell */,
@@ -209,6 +494,7 @@
 		F70124F921192F6B00FB6555 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F71D205E211D283D00C3132E /* Experience */,
 				F701250D2119363000FB6555 /* Country.swift */,
 			);
 			path = Model;
@@ -242,6 +528,7 @@
 		F70124FD21192F9B00FB6555 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				F71D2074211D5A2600C3132E /* ExperienceCell */,
 				F70125042119318400FB6555 /* CountryCell */,
 			);
 			path = Cell;
@@ -250,6 +537,7 @@
 		F70124FE21192FA200FB6555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F71D2071211D5A0100C3132E /* ExperienceViewController */,
 				F70125022119308800FB6555 /* CountryListViewController.swift */,
 			);
 			path = ViewController;
@@ -259,6 +547,7 @@
 			isa = PBXGroup;
 			children = (
 				F70125002119305A00FB6555 /* Country.storyboard */,
+				F74EDEDF211C0C5900D0F498 /* Tab.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -270,6 +559,207 @@
 				F7012506211931A700FB6555 /* CountryTableViewCell.xib */,
 			);
 			path = CountryCell;
+			sourceTree = "<group>";
+		};
+		F71D1F57211CF62300C3132E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F71D207A211D6FB300C3132E /* Fonts */,
+				F71D1F58211D19A900C3132E /* icons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F71D1F58211D19A900C3132E /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				F71D2079211D6FAB00C3132E /* New Group */,
+				F71D1F59211D19D400C3132E /* SVG */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		F71D1F59211D19D400C3132E /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				F71D20CD211D724F00C3132E /* Ambassador-12.svg */,
+				F71D209B211D724500C3132E /* Ambassador-18.svg */,
+				F71D20E9211D725300C3132E /* Ban-18.svg */,
+				F71D20CA211D724E00C3132E /* Book-18.svg */,
+				F71D20CC211D724E00C3132E /* Book-24.svg */,
+				F71D208B211D724200C3132E /* Bookmark-18.svg */,
+				F71D208F211D724300C3132E /* Briefcase-18.svg */,
+				F71D20B3211D724A00C3132E /* Briefcase-24.svg */,
+				F71D208C211D724200C3132E /* Cake-18.svg */,
+				F71D20C6211D724D00C3132E /* Cake-24.svg */,
+				F71D20EB211D725400C3132E /* Calendar-18.svg */,
+				F71D20D8211D725100C3132E /* Camera-18.svg */,
+				F71D20C7211D724E00C3132E /* Camera-Add-24.svg */,
+				F71D20E2211D725200C3132E /* Camera-Add-32.svg */,
+				F71D20BA211D724B00C3132E /* Channel-12.svg */,
+				F71D2093211D724300C3132E /* Channel-18.svg */,
+				F71D20C9211D724E00C3132E /* Channel-Create-18.svg */,
+				F71D20AA211D724800C3132E /* Channel-Delete-18.svg */,
+				F71D20A4211D724700C3132E /* Channel-Leave-18.svg */,
+				F71D20CB211D724E00C3132E /* Channel-Private-12.svg */,
+				F71D20FB211D725700C3132E /* Channel-Secret-12.svg */,
+				F71D2095211D724400C3132E /* Check-10.svg */,
+				F71D20DB211D725100C3132E /* Check-Circle-18.svg */,
+				F71D20B5211D724A00C3132E /* Chest-18.svg */,
+				F71D20C0211D724C00C3132E /* Chevron-Down-18.svg */,
+				F71D20F8211D725700C3132E /* Chevron-Down-Circle-10.svg */,
+				F71D20B2211D724900C3132E /* Chevron-Left-10.svg */,
+				F71D208A211D724200C3132E /* Chevron-Left-12.svg */,
+				F71D20C5211D724D00C3132E /* Chevron-Left-18.svg */,
+				F71D209C211D724500C3132E /* Chevron-Right-10.svg */,
+				F71D20A2211D724600C3132E /* Chevron-Right-18.svg */,
+				F71D20A3211D724700C3132E /* Chevron-Up-18.svg */,
+				F71D20FA211D725700C3132E /* Chevron-Up-Circle-10.svg */,
+				F71D20DF211D725200C3132E /* Comment-12.svg */,
+				F71D20F3211D725600C3132E /* Company-18.svg */,
+				F71D20D9211D725100C3132E /* Company-24.svg */,
+				F71D20D0211D724F00C3132E /* Congrats-18.svg */,
+				F71D20DA211D725100C3132E /* Diploma-18.svg */,
+				F71D20B0211D724900C3132E /* Dots-Horizontal-18.svg */,
+				F71D20AD211D724800C3132E /* Edit-18.svg */,
+				F71D2085211D724100C3132E /* English-18.svg */,
+				F71D2098211D724400C3132E /* English-24.svg */,
+				F71D20AB211D724800C3132E /* Envelope-18.svg */,
+				F71D20EF211D725400C3132E /* Error-18.svg */,
+				F71D20EC211D725400C3132E /* Experience-1-24.svg */,
+				F71D20EA211D725400C3132E /* Experience-5-24.svg */,
+				F71D2096211D724400C3132E /* Experience-10-24.svg */,
+				F71D20A8211D724700C3132E /* Experience-18.svg */,
+				F71D20ED211D725400C3132E /* Facebook-F.svg */,
+				F71D20BC211D724C00C3132E /* FB-Messenger.svg */,
+				F71D2097211D724400C3132E /* Filter-18.svg */,
+				F71D20DC211D725100C3132E /* Flag-18.svg */,
+				F71D20A6211D724700C3132E /* Flag-24.svg */,
+				F71D209A211D724500C3132E /* Follow-18.svg */,
+				F71D20A0211D724600C3132E /* Follow-Check-18.svg */,
+				F71D20A7211D724700C3132E /* Follow-Pending-18.svg */,
+				F71D2080211D724000C3132E /* Gem-18.svg */,
+				F71D2086211D724100C3132E /* Gem-24.svg */,
+				F71D20D3211D725000C3132E /* Gender-Female-18.svg */,
+				F71D20B9211D724B00C3132E /* Gender-Male-18.svg */,
+				F71D2081211D724000C3132E /* Gender-Other-18.svg */,
+				F71D20BB211D724B00C3132E /* Gender-Other-24.svg */,
+				F71D20F0211D725500C3132E /* Globe-18.svg */,
+				F71D207B211D723E00C3132E /* Goodwall-18.svg */,
+				F71D20DD211D725100C3132E /* Grades-18.svg */,
+				F71D20DE211D725100C3132E /* Grades-Percent-18.svg */,
+				F71D209D211D724500C3132E /* Graduate-18.svg */,
+				F71D2090211D724300C3132E /* Hashtag-12.svg */,
+				F71D20B8211D724A00C3132E /* Hashtag-18.svg */,
+				F71D20B1211D724900C3132E /* Heart-12.svg */,
+				F71D20AE211D724800C3132E /* Heart-18.svg */,
+				F71D2099211D724400C3132E /* Heart-Filled-18.svg */,
+				F71D20A9211D724800C3132E /* Heart-Filled-40.svg */,
+				F71D2087211D724100C3132E /* Help-Hexagon-18.svg */,
+				F71D208D211D724200C3132E /* House-18.svg */,
+				F71D207F211D723F00C3132E /* Influencer-Tick-5.svg */,
+				F71D209F211D724500C3132E /* Invite-18.svg */,
+				F71D20D7211D725000C3132E /* Keyboard-18.svg */,
+				F71D2092211D724300C3132E /* Language-24.svg */,
+				F71D20E0211D725200C3132E /* Lightning-12.svg */,
+				F71D209E211D724500C3132E /* Lightning-18.svg */,
+				F71D208E211D724300C3132E /* Line-Messenger.svg */,
+				F71D20C3211D724D00C3132E /* Link-18.svg */,
+				F71D20E4211D725200C3132E /* Message-12.svg */,
+				F71D20EE211D725400C3132E /* Message-18.svg */,
+				F71D20CF211D724F00C3132E /* Message-Plus-18.svg */,
+				F71D2088211D724100C3132E /* Mute-18.svg */,
+				F71D20F4211D725600C3132E /* Name-First-18.svg */,
+				F71D20E8211D725300C3132E /* Name-Last-18.svg */,
+				F71D20F7211D725600C3132E /* Notepad-24.svg */,
+				F71D20D1211D724F00C3132E /* Person-12.svg */,
+				F71D20D4211D725000C3132E /* Person-18.svg */,
+				F71D20B4211D724A00C3132E /* Person-24.svg */,
+				F71D2089211D724200C3132E /* Phone-18.svg */,
+				F71D2094211D724400C3132E /* Pin-12.svg */,
+				F71D20F5211D725600C3132E /* Pin-18.svg */,
+				F71D20BD211D724C00C3132E /* Pin-24.svg */,
+				F71D20BE211D724C00C3132E /* Play-Hexagon-32.svg */,
+				F71D20C8211D724E00C3132E /* Plus-12.svg */,
+				F71D20E6211D725300C3132E /* Plus-Hexagon-18.svg */,
+				F71D20A1211D724600C3132E /* Report-18.svg */,
+				F71D20F1211D725500C3132E /* Resume-18.svg */,
+				F71D20C1211D724C00C3132E /* Ribbon-18.svg */,
+				F71D20CE211D724F00C3132E /* School-18.svg */,
+				F71D20D5211D725000C3132E /* School-24.svg */,
+				F71D2082211D724000C3132E /* Search-12.svg */,
+				F71D2083211D724000C3132E /* Settings-18.svg */,
+				F71D20C4211D724D00C3132E /* Settings-Sliders-12.svg */,
+				F71D20E3211D725200C3132E /* Share-12.svg */,
+				F71D20D2211D725000C3132E /* Share-18.svg */,
+				F71D20BF211D724C00C3132E /* Skip-40.svg */,
+				F71D2091211D724300C3132E /* SMS.svg */,
+				F71D207C211D723F00C3132E /* Star-12.svg */,
+				F71D20F6211D725600C3132E /* Star-18.svg */,
+				F71D20C2211D724D00C3132E /* Star-Filled-18.svg */,
+				F71D2084211D724100C3132E /* Teacher-Student-18.svg */,
+				F71D20B6211D724A00C3132E /* To-Do-18.svg */,
+				F71D20F9211D725700C3132E /* Trash-18.svg */,
+				F71D20E1211D725200C3132E /* Tuition-18.svg */,
+				F71D20B7211D724A00C3132E /* University-18.svg */,
+				F71D20A5211D724700C3132E /* University-24.svg */,
+				F71D207E211D723F00C3132E /* Unmute-18.svg */,
+				F71D20F2211D725500C3132E /* Video-18.svg */,
+				F71D207D211D723F00C3132E /* Video-24.svg */,
+				F71D20AC211D724800C3132E /* Whatsapp.svg */,
+				F71D20E7211D725300C3132E /* X-10.svg */,
+				F71D20D6211D725000C3132E /* X-12.svg */,
+				F71D20E5211D725300C3132E /* X-18.svg */,
+				F71D20AF211D724900C3132E /* X-Circle-12.svg */,
+			);
+			path = SVG;
+			sourceTree = "<group>";
+		};
+		F71D205E211D283D00C3132E /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				F71D2064211D285900C3132E /* Experience.swift */,
+				F71D2065211D285900C3132E /* ExperienceComment.swift */,
+				F71D2067211D285900C3132E /* ExperienceData.swift */,
+				F71D205F211D285900C3132E /* ExperienceFollowStatuse.swift */,
+				F71D2060211D285900C3132E /* ExperienceLocation.swift */,
+				F71D2066211D285900C3132E /* ExperiencePayload.swift */,
+				F71D2062211D285900C3132E /* ExperiencePicture.swift */,
+				F71D2061211D285900C3132E /* ExperienceRootClass.swift */,
+				F71D2063211D285900C3132E /* ExperienceUser.swift */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		F71D2071211D5A0100C3132E /* ExperienceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F71D2072211D5A1400C3132E /* ExperienceViewController.swift */,
+			);
+			path = ExperienceViewController;
+			sourceTree = "<group>";
+		};
+		F71D2074211D5A2600C3132E /* ExperienceCell */ = {
+			isa = PBXGroup;
+			children = (
+				F71D2075211D5ACA00C3132E /* ExperienceTableViewCell.swift */,
+				F71D2076211D5ACA00C3132E /* ExperienceTableViewCell.xib */,
+			);
+			path = ExperienceCell;
+			sourceTree = "<group>";
+		};
+		F71D2079211D6FAB00C3132E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F71D207A211D6FB300C3132E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,12 +873,143 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71D2147211D725700C3132E /* Cake-24.svg in Resources */,
+				F71D2175211D725700C3132E /* Name-First-18.svg in Resources */,
+				F71D212C211D725700C3132E /* Envelope-18.svg in Resources */,
+				F71D214B211D725700C3132E /* Book-18.svg in Resources */,
+				F71D2100211D725700C3132E /* Influencer-Tick-5.svg in Resources */,
+				F71D2124211D725700C3132E /* Chevron-Up-18.svg in Resources */,
+				F71D214F211D725700C3132E /* School-18.svg in Resources */,
+				F71D2167211D725700C3132E /* Plus-Hexagon-18.svg in Resources */,
+				F71D2135211D725700C3132E /* Person-24.svg in Resources */,
+				F71D2165211D725700C3132E /* Message-12.svg in Resources */,
+				F71D2131211D725700C3132E /* Dots-Horizontal-18.svg in Resources */,
+				F71D212B211D725700C3132E /* Channel-Delete-18.svg in Resources */,
+				F71D2115211D725700C3132E /* Pin-12.svg in Resources */,
+				F71D2103211D725700C3132E /* Search-12.svg in Resources */,
+				F71D2149211D725700C3132E /* Plus-12.svg in Resources */,
+				F71D210F211D725700C3132E /* Line-Messenger.svg in Resources */,
 				F7012508211931A700FB6555 /* CountryTableViewCell.xib in Resources */,
+				F71D2127211D725700C3132E /* Flag-24.svg in Resources */,
+				F71D2113211D725700C3132E /* Language-24.svg in Resources */,
+				F71D216E211D725700C3132E /* Facebook-F.svg in Resources */,
+				F71D214A211D725700C3132E /* Channel-Create-18.svg in Resources */,
+				F71D211A211D725700C3132E /* Heart-Filled-18.svg in Resources */,
+				F71D213A211D725700C3132E /* Gender-Male-18.svg in Resources */,
+				F71D2128211D725700C3132E /* Follow-Pending-18.svg in Resources */,
+				F71D2173211D725700C3132E /* Video-18.svg in Resources */,
+				F71D2155211D725700C3132E /* Person-18.svg in Resources */,
 				F70124D221192EF500FB6555 /* LaunchScreen.storyboard in Resources */,
+				F71D2159211D725700C3132E /* Camera-18.svg in Resources */,
+				F71D2102211D725700C3132E /* Gender-Other-18.svg in Resources */,
+				F71D2141211D725700C3132E /* Chevron-Down-18.svg in Resources */,
+				F74EDEE0211C0C5900D0F498 /* Tab.storyboard in Resources */,
+				F71D210B211D725700C3132E /* Chevron-Left-12.svg in Resources */,
+				F71D2139211D725700C3132E /* Hashtag-18.svg in Resources */,
+				F71D2142211D725700C3132E /* Ribbon-18.svg in Resources */,
+				F71D2120211D725700C3132E /* Invite-18.svg in Resources */,
+				F71D2109211D725700C3132E /* Mute-18.svg in Resources */,
+				F71D2138211D725700C3132E /* University-18.svg in Resources */,
+				F71D2121211D725700C3132E /* Follow-Check-18.svg in Resources */,
+				F71D2170211D725700C3132E /* Error-18.svg in Resources */,
+				F71D215C211D725700C3132E /* Check-Circle-18.svg in Resources */,
+				F71D2119211D725700C3132E /* English-24.svg in Resources */,
+				F71D2108211D725700C3132E /* Help-Hexagon-18.svg in Resources */,
+				F71D2106211D725700C3132E /* English-18.svg in Resources */,
+				F71D2148211D725700C3132E /* Camera-Add-24.svg in Resources */,
+				F71D2143211D725700C3132E /* Star-Filled-18.svg in Resources */,
+				F71D2136211D725700C3132E /* Chest-18.svg in Resources */,
+				F71D212A211D725700C3132E /* Heart-Filled-40.svg in Resources */,
+				F71D215F211D725700C3132E /* Grades-Percent-18.svg in Resources */,
+				F71D213B211D725700C3132E /* Channel-12.svg in Resources */,
+				F71D20FD211D725700C3132E /* Star-12.svg in Resources */,
+				F71D2132211D725700C3132E /* Heart-12.svg in Resources */,
+				F71D217A211D725700C3132E /* Trash-18.svg in Resources */,
+				F71D2125211D725700C3132E /* Channel-Leave-18.svg in Resources */,
+				F71D215A211D725700C3132E /* Company-24.svg in Resources */,
+				F71D2112211D725700C3132E /* SMS.svg in Resources */,
+				F71D215D211D725700C3132E /* Flag-18.svg in Resources */,
 				F70125012119305A00FB6555 /* Country.storyboard in Resources */,
+				F71D211C211D725700C3132E /* Ambassador-18.svg in Resources */,
+				F71D2116211D725700C3132E /* Check-10.svg in Resources */,
+				F71D216B211D725700C3132E /* Experience-5-24.svg in Resources */,
+				F71D213C211D725700C3132E /* Gender-Other-24.svg in Resources */,
+				F71D2150211D725700C3132E /* Message-Plus-18.svg in Resources */,
 				F70124CF21192EF500FB6555 /* Assets.xcassets in Resources */,
+				F71D210E211D725700C3132E /* House-18.svg in Resources */,
+				F71D2144211D725700C3132E /* Link-18.svg in Resources */,
+				F71D2153211D725700C3132E /* Share-18.svg in Resources */,
+				F71D212E211D725700C3132E /* Edit-18.svg in Resources */,
+				F71D215B211D725700C3132E /* Diploma-18.svg in Resources */,
+				F71D211E211D725700C3132E /* Graduate-18.svg in Resources */,
+				F71D214C211D725700C3132E /* Channel-Private-12.svg in Resources */,
+				F71D2166211D725700C3132E /* X-18.svg in Resources */,
+				F71D210A211D725700C3132E /* Phone-18.svg in Resources */,
+				F71D216C211D725700C3132E /* Calendar-18.svg in Resources */,
+				F71D213E211D725700C3132E /* Pin-24.svg in Resources */,
+				F71D2164211D725700C3132E /* Share-12.svg in Resources */,
+				F71D213F211D725700C3132E /* Play-Hexagon-32.svg in Resources */,
+				F71D20FC211D725700C3132E /* Goodwall-18.svg in Resources */,
+				F71D2129211D725700C3132E /* Experience-18.svg in Resources */,
+				F71D2130211D725700C3132E /* X-Circle-12.svg in Resources */,
+				F71D2174211D725700C3132E /* Company-18.svg in Resources */,
+				F71D216F211D725700C3132E /* Message-18.svg in Resources */,
+				F71D2158211D725700C3132E /* Keyboard-18.svg in Resources */,
+				F71D217B211D725700C3132E /* Chevron-Up-Circle-10.svg in Resources */,
+				F71D217C211D725700C3132E /* Channel-Secret-12.svg in Resources */,
+				F71D210C211D725700C3132E /* Bookmark-18.svg in Resources */,
+				F71D2105211D725700C3132E /* Teacher-Student-18.svg in Resources */,
+				F71D20FE211D725700C3132E /* Video-24.svg in Resources */,
+				F71D2156211D725700C3132E /* School-24.svg in Resources */,
+				F71D214E211D725700C3132E /* Ambassador-12.svg in Resources */,
+				F71D2126211D725700C3132E /* University-24.svg in Resources */,
+				F71D211F211D725700C3132E /* Lightning-18.svg in Resources */,
+				F71D2133211D725700C3132E /* Chevron-Left-10.svg in Resources */,
+				F71D2146211D725700C3132E /* Chevron-Left-18.svg in Resources */,
+				F71D2169211D725700C3132E /* Name-Last-18.svg in Resources */,
+				F71D2152211D725700C3132E /* Person-12.svg in Resources */,
+				F71D2140211D725700C3132E /* Skip-40.svg in Resources */,
+				F71D2163211D725700C3132E /* Camera-Add-32.svg in Resources */,
+				F71D2154211D725700C3132E /* Gender-Female-18.svg in Resources */,
+				F71D2162211D725700C3132E /* Tuition-18.svg in Resources */,
+				F71D2101211D725700C3132E /* Gem-18.svg in Resources */,
 				F70124F621192F4700FB6555 /* Podfile in Resources */,
+				F71D2168211D725700C3132E /* X-10.svg in Resources */,
+				F71D2179211D725700C3132E /* Chevron-Down-Circle-10.svg in Resources */,
+				F71D2178211D725700C3132E /* Notepad-24.svg in Resources */,
+				F71D212D211D725700C3132E /* Whatsapp.svg in Resources */,
+				F71D2078211D5ACA00C3132E /* ExperienceTableViewCell.xib in Resources */,
+				F71D2134211D725700C3132E /* Briefcase-24.svg in Resources */,
+				F71D2107211D725700C3132E /* Gem-24.svg in Resources */,
+				F71D2118211D725700C3132E /* Filter-18.svg in Resources */,
+				F71D2161211D725700C3132E /* Lightning-12.svg in Resources */,
 				F70124CD21192EF500FB6555 /* Main.storyboard in Resources */,
+				F71D2145211D725700C3132E /* Settings-Sliders-12.svg in Resources */,
+				F71D2137211D725700C3132E /* To-Do-18.svg in Resources */,
+				F71D210D211D725700C3132E /* Cake-18.svg in Resources */,
+				F71D2177211D725700C3132E /* Star-18.svg in Resources */,
+				F71D20FF211D725700C3132E /* Unmute-18.svg in Resources */,
+				F71D2110211D725700C3132E /* Briefcase-18.svg in Resources */,
+				F71D2151211D725700C3132E /* Congrats-18.svg in Resources */,
+				F71D2123211D725700C3132E /* Chevron-Right-18.svg in Resources */,
+				F71D212F211D725700C3132E /* Heart-18.svg in Resources */,
+				F71D2111211D725700C3132E /* Hashtag-12.svg in Resources */,
+				F71D211B211D725700C3132E /* Follow-18.svg in Resources */,
+				F71D2104211D725700C3132E /* Settings-18.svg in Resources */,
+				F71D2114211D725700C3132E /* Channel-18.svg in Resources */,
+				F71D2171211D725700C3132E /* Globe-18.svg in Resources */,
+				F71D213D211D725700C3132E /* FB-Messenger.svg in Resources */,
+				F71D2122211D725700C3132E /* Report-18.svg in Resources */,
+				F71D214D211D725700C3132E /* Book-24.svg in Resources */,
+				F71D215E211D725700C3132E /* Grades-18.svg in Resources */,
+				F71D2172211D725700C3132E /* Resume-18.svg in Resources */,
+				F71D211D211D725700C3132E /* Chevron-Right-10.svg in Resources */,
+				F71D2160211D725700C3132E /* Comment-12.svg in Resources */,
+				F71D216D211D725700C3132E /* Experience-1-24.svg in Resources */,
+				F71D2157211D725700C3132E /* X-12.svg in Resources */,
+				F71D2176211D725700C3132E /* Pin-18.svg in Resources */,
+				F71D2117211D725700C3132E /* Experience-10-24.svg in Resources */,
+				F71D216A211D725700C3132E /* Ban-18.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,10 +1074,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -488,14 +1115,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71D2077211D5ACA00C3132E /* ExperienceTableViewCell.swift in Sources */,
+				F71D206C211D285A00C3132E /* ExperienceUser.swift in Sources */,
+				F71D206E211D285A00C3132E /* ExperienceComment.swift in Sources */,
 				F701250E2119363000FB6555 /* Country.swift in Sources */,
 				F7012507211931A700FB6555 /* CountryTableViewCell.swift in Sources */,
+				F71D206F211D285A00C3132E /* ExperiencePayload.swift in Sources */,
+				F71D206D211D285A00C3132E /* Experience.swift in Sources */,
 				F70124CA21192EF500FB6555 /* ViewController.swift in Sources */,
+				F71D2070211D285A00C3132E /* ExperienceData.swift in Sources */,
 				F70125122119365200FB6555 /* Constant.swift in Sources */,
+				F71D206A211D285A00C3132E /* ExperienceRootClass.swift in Sources */,
 				F70125032119308800FB6555 /* CountryListViewController.swift in Sources */,
+				F71D206B211D285A00C3132E /* ExperiencePicture.swift in Sources */,
+				F71D2073211D5A1400C3132E /* ExperienceViewController.swift in Sources */,
 				F701250C2119361E00FB6555 /* APIHandler.swift in Sources */,
 				F70124C821192EF500FB6555 /* AppDelegate.swift in Sources */,
 				F701250A2119360000FB6555 /* CountryViewModel.swift in Sources */,
+				F71D2069211D285A00C3132E /* ExperienceLocation.swift in Sources */,
+				F71D2068211D285A00C3132E /* ExperienceFollowStatuse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

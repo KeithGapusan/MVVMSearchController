@@ -10,7 +10,10 @@ import UIKit
 
 class Constant: NSObject {
 
-    public static let baseUrl = "https://restcountries.eu/rest/v2/all"
-    
+    public static let dev = "https://restcountries.eu/rest/v2/all"
+    public static let staging = "https://restcountries.eu/rest/v2/all"
+    public static let live = "https://restcountries.eu/rest/v2/all"
+    public static let baseUrl = dev
+
     
 }
