@@ -1,6 +1,6 @@
 //
 //  ExperienceUser.swift
-//  Model Generated using http://www.jsoncafe.com/ 
+//  Model Generated using keith model generator
 //  Created on August 10, 2018
 
 import Foundation

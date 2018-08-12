@@ -26,17 +26,21 @@
             </objects>
             <point key="canvasLocation" x="897" y="359"/>
         </scene>
-        <!--View Controller-->
+        <!--Experience View Controller-->
         <scene sceneID="k65-jb-m03">
             <objects>
-                <viewController id="zHb-7a-yD3" sceneMemberID="viewController">
+                <viewController id="zHb-7a-yD3" customClass="ExperienceViewController" customModule="GoodWall" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UUk-eW-0eL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h3k-Ey-3sg">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.99070276355910192" green="0.99341508521490063" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="zHb-7a-yD3" id="SgZ-LI-rxO"/>
+                                    <outlet property="delegate" destination="zHb-7a-yD3" id="jc7-cM-RXe"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -49,6 +53,9 @@
                         <viewLayoutGuide key="safeArea" id="7Bm-xk-9rt"/>
                     </view>
                     <navigationItem key="navigationItem" id="DAL-9a-Svj"/>
+                    <connections>
+                        <outlet property="tableView" destination="h3k-Ey-3sg" id="QnL-co-RaA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNR-oV-Pim" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4DB451B1C46E384CCD5CEC3E /* Pods_GoodWallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9218740A64894EDAA4BD6D1 /* Pods_GoodWallUITests.framework */; };
+		53AF97F621204DA500E2C114 /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AF97F521204DA500E2C114 /* ExperienceViewModel.swift */; };
 		5BB738208792A088CE15049C /* Pods_GoodWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F0D1E484A8D6EDBB2711E /* Pods_GoodWall.framework */; };
 		9EBA953C9E2D2E27B9D6799D /* Pods_GoodWallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EF74D973FCC29FC9DA4CE7 /* Pods_GoodWallTests.framework */; };
 		F70124C821192EF500FB6555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124C721192EF500FB6555 /* AppDelegate.swift */; };
@@ -189,6 +190,7 @@
 
 /* Begin PBXFileReference section */
 		1445C135CD1A6F79935D7ABA /* Pods-GoodWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall.release.xcconfig"; sourceTree = "<group>"; };
+		53AF97F521204DA500E2C114 /* ExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewModel.swift; sourceTree = "<group>"; };
 		56859A2C384FB5D0A2CB3DC7 /* Pods-GoodWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallTests/Pods-GoodWallTests.release.xcconfig"; sourceTree = "<group>"; };
 		62AD98221038314E74879A87 /* Pods-GoodWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallTests/Pods-GoodWallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		62EF74D973FCC29FC9DA4CE7 /* Pods_GoodWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -391,6 +393,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53AF97F421204D7D00E2C114 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				53AF97F521204DA500E2C114 /* ExperienceViewModel.swift */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
 		97BF293FFE0D4F79C3A4534D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,6 +496,7 @@
 		F70124F821192F6500FB6555 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				53AF97F421204D7D00E2C114 /* Experience */,
 				F70125092119360000FB6555 /* CountryViewModel.swift */,
 			);
 			path = ViewModel;
@@ -1129,6 +1140,7 @@
 				F70125122119365200FB6555 /* Constant.swift in Sources */,
 				F71D206A211D285A00C3132E /* ExperienceRootClass.swift in Sources */,
 				F70125032119308800FB6555 /* CountryListViewController.swift in Sources */,
+				53AF97F621204DA500E2C114 /* ExperienceViewModel.swift in Sources */,
 				F71D206B211D285A00C3132E /* ExperiencePicture.swift in Sources */,
 				F71D2073211D5A1400C3132E /* ExperienceViewController.swift in Sources */,
 				F701250C2119361E00FB6555 /* APIHandler.swift in Sources */,
@@ -1302,6 +1314,7 @@
 			baseConfigurationReference = C6515C5E00DBB5278D05DA8C /* Pods-GoodWall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5M8AYP3HD3;
 				INFOPLIST_FILE = GoodWall/Info.plist;
@@ -1318,6 +1331,7 @@
 			baseConfigurationReference = 1445C135CD1A6F79935D7ABA /* Pods-GoodWall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5M8AYP3HD3;
 				INFOPLIST_FILE = GoodWall/Info.plist;
