@@ -9,6 +9,7 @@ target 'GoodWall' do
     pod 'RxSwift'
     pod 'RxCocoa'
     pod 'IQKeyboardManager'
+    pod 'SwiftSVG', '~> 2.0'
   # Pods for GoodWall
 
   target 'GoodWallTests' do
