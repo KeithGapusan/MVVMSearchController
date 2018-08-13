@@ -11,6 +11,7 @@ import UIKit
 class ExperienceViewModel: NSObject {
     var listExperience = [Experience]()
     var filteredExperience = [Experience]()
+    var rootExperienceModel : ExperienceRootClass?
     public static let shared = ExperienceViewModel()
     
     func numberOfRowsInSection(searchIsActive : Bool) -> Int{
@@ -45,6 +46,30 @@ class ExperienceViewModel: NSObject {
     }
     
     func fetchAllExpericeData(_  completion : @escaping (_ error : Error? , _ messageResult :[String:Any]?) -> () ) {
+        
+        APIHandler.shared.getDictionaryOfData("https://api.myjson.com/bins/11dz98") { (dataDictionary, error) in
+         
+           // print(data.toDictionary())
+           // var toDict = data.toDictionary()
+        
+            
+                        if error != nil {
+                            print("an error accured")
+                            completion(error , nil)
+                        }else{
+                            self.rootExperienceModel = ExperienceRootClass.init(fromDictionary: dataDictionary!)
+                            self.listExperience = (self.rootExperienceModel?.payload.data.experiences)!
+//                            for data in json!{
+//                                self?.listCountry.append(Country.init(data as [String:Any])!)
+//                            }
+                            completion(nil , nil)
+                        }
+            
+//            for experience in rootExperienceModel.payload.data.experiences{
+//                print(experience.title)
+//            }
+            //print("sssss \(root.payload.data.experiences as! [[String:Any]])")
+        }
         
 //        APIHandler.shared.getListOfCountry(Constant.baseUrl) {[weak self] (json, error) in
 //            if error != nil {
