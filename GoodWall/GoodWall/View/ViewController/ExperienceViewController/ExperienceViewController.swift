@@ -64,7 +64,7 @@ extension ExperienceViewController: UITableViewDelegate, UITableViewDataSource{
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellExperienceTableViewCell.getCellId(), for: indexPath)  as?  ExperienceTableViewCell{
             
-            cell.textLabel?.text = viewModel?.getDataAtRow(indexPath.row,  isActive: searchController.isActive).name ?? ""
+            cell.textLabel?.text = viewModel?.getDataAtRow(indexPath.row,  isActive: searchController.isActive).title ?? ""
             
             
             return cell
@@ -73,4 +73,22 @@ extension ExperienceViewController: UITableViewDelegate, UITableViewDataSource{
         }
     }
     
+}
+
+extension ExperienceViewController : UISearchResultsUpdating{
+    func updateSearchResults(for searchController: UISearchController) {
+        self.tableView.reloadData()
+        guard let searchText = searchController.searchBar.text else {
+            return
+        }
+        self.viewModel?.getFilteredData(searchText)
+        
+//        for data in filteredArray{
+//            print(data.name ?? "")
+//        }
+//
+        self.tableView.reloadData()
+        
+    }
+        // print(searchText)
 }

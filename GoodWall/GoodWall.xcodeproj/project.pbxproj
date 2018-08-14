@@ -169,6 +169,9 @@
 		F71D217B211D725700C3132E /* Chevron-Up-Circle-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20FA211D725700C3132E /* Chevron-Up-Circle-10.svg */; };
 		F71D217C211D725700C3132E /* Channel-Secret-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20FB211D725700C3132E /* Channel-Secret-12.svg */; };
 		F74EDEE0211C0C5900D0F498 /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74EDEDF211C0C5900D0F498 /* Tab.storyboard */; };
+		F7F8509A21211DD40080B3A7 /* JsonCafeCustArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */; };
+		F7F8509B21211DD40080B3A7 /* JsonCafeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */; };
+		F7F8509C21211DD40080B3A7 /* JsonCafeRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -363,6 +366,9 @@
 		F71D20FA211D725700C3132E /* Chevron-Up-Circle-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Up-Circle-10.svg"; sourceTree = "<group>"; };
 		F71D20FB211D725700C3132E /* Channel-Secret-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-Secret-12.svg"; sourceTree = "<group>"; };
 		F74EDEDF211C0C5900D0F498 /* Tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab.storyboard; sourceTree = "<group>"; };
+		F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeCustArray.swift; sourceTree = "<group>"; };
+		F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeObject.swift; sourceTree = "<group>"; };
+		F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeRootClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +511,7 @@
 		F70124F921192F6B00FB6555 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F7F8509621211DCE0080B3A7 /* New Group */,
 				F71D205E211D283D00C3132E /* Experience */,
 				F701250D2119363000FB6555 /* Country.swift */,
 			);
@@ -771,6 +778,16 @@
 			children = (
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F7F8509621211DCE0080B3A7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */,
+				F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */,
+				F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1130,10 +1147,13 @@
 			files = (
 				F71D2077211D5ACA00C3132E /* ExperienceTableViewCell.swift in Sources */,
 				F71D206C211D285A00C3132E /* ExperienceUser.swift in Sources */,
+				F7F8509A21211DD40080B3A7 /* JsonCafeCustArray.swift in Sources */,
+				F7F8509B21211DD40080B3A7 /* JsonCafeObject.swift in Sources */,
 				F71D206E211D285A00C3132E /* ExperienceComment.swift in Sources */,
 				F701250E2119363000FB6555 /* Country.swift in Sources */,
 				F7012507211931A700FB6555 /* CountryTableViewCell.swift in Sources */,
 				F71D206F211D285A00C3132E /* ExperiencePayload.swift in Sources */,
+				F7F8509C21211DD40080B3A7 /* JsonCafeRootClass.swift in Sources */,
 				F71D206D211D285A00C3132E /* Experience.swift in Sources */,
 				F70124CA21192EF500FB6555 /* ViewController.swift in Sources */,
 				F71D2070211D285A00C3132E /* ExperienceData.swift in Sources */,
