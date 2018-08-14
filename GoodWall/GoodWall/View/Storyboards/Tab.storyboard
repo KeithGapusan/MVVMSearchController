@@ -52,14 +52,50 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Bm-xk-9rt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="DAL-9a-Svj"/>
+                    <navigationItem key="navigationItem" id="DAL-9a-Svj">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleAspectFill" id="YTE-Im-Pq3">
+                            <rect key="frame" x="17" y="7" width="341" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yrr-4z-a7N">
+                                    <rect key="frame" x="0.0" y="0.0" width="292" height="30"/>
+                                    <color key="backgroundColor" red="0.56223416329999998" green="0.1560565233" blue="0.5474213362" alpha="0.21998073630136986" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="tintColor" red="0.56223416329999998" green="0.1560565233" blue="0.5474213362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="292" id="hhQ-LH-86i"/>
+                                    </constraints>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FX5-bi-iXU">
+                                    <rect key="frame" x="311" y="0.0" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="Fwp-BJ-fdp"/>
+                                        <constraint firstAttribute="height" constant="30" id="ajp-HI-1Cd"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Yrr-4z-a7N" firstAttribute="leading" secondItem="YTE-Im-Pq3" secondAttribute="leading" id="4Bs-34-Ekw"/>
+                                <constraint firstItem="FX5-bi-iXU" firstAttribute="leading" secondItem="Yrr-4z-a7N" secondAttribute="trailing" constant="19" id="Thy-gj-FEC"/>
+                                <constraint firstItem="FX5-bi-iXU" firstAttribute="centerY" secondItem="YTE-Im-Pq3" secondAttribute="centerY" id="VBq-24-Dw0"/>
+                                <constraint firstAttribute="bottom" secondItem="Yrr-4z-a7N" secondAttribute="bottom" id="cH5-k3-TUK"/>
+                                <constraint firstAttribute="trailing" secondItem="FX5-bi-iXU" secondAttribute="trailing" id="egp-3R-ita"/>
+                                <constraint firstItem="Yrr-4z-a7N" firstAttribute="top" secondItem="YTE-Im-Pq3" secondAttribute="top" id="zSl-J5-c23"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="h3k-Ey-3sg" id="QnL-co-RaA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNR-oV-Pim" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="897" y="-306"/>
+            <point key="canvasLocation" x="896.79999999999995" y="-306.29685157421289"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5Mg-Qe-KaT">
@@ -103,6 +139,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BgB-wb-VyE">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -110,6 +147,13 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LXc-wT-fxQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationBar contentMode="scaleToFill" id="J6d-rj-jOs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <navigationItem title="Title" id="Zjy-Y4-zq6"/>
+                    </items>
+                </navigationBar>
             </objects>
             <point key="canvasLocation" x="81.599999999999994" y="-305.84707646176912"/>
         </scene>
