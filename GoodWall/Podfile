@@ -8,8 +8,8 @@ target 'GoodWall' do
     pod 'IQKeyboardManager'
     pod 'RxSwift'
     pod 'RxCocoa'
-    pod 'IQKeyboardManager'
     pod 'SwiftSVG', '~> 2.0'
+    pod 'SDWebImage', '~> 4.4.1'
   # Pods for GoodWall
 
   target 'GoodWallTests' do

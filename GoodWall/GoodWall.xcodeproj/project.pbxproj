@@ -172,6 +172,7 @@
 		F7F8509A21211DD40080B3A7 /* JsonCafeCustArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */; };
 		F7F8509B21211DD40080B3A7 /* JsonCafeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */; };
 		F7F8509C21211DD40080B3A7 /* JsonCafeRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */; };
+		F7FBAFFD2122788D004EDA1F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FBAFFC2122788C004EDA1F /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -369,6 +370,7 @@
 		F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeCustArray.swift; sourceTree = "<group>"; };
 		F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeObject.swift; sourceTree = "<group>"; };
 		F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeRootClass.swift; sourceTree = "<group>"; };
+		F7FBAFFC2122788C004EDA1F /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -521,6 +523,7 @@
 		F70124FA21192F7600FB6555 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				F7FBAFFC2122788C004EDA1F /* DesignableView.swift */,
 				F70124FC21192F9500FB6555 /* Constant */,
 				F70124FB21192F8000FB6555 /* NetworkManager */,
 			);
@@ -1103,16 +1106,20 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSVG/SwiftSVG.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSVG.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1153,6 +1160,7 @@
 				F701250E2119363000FB6555 /* Country.swift in Sources */,
 				F7012507211931A700FB6555 /* CountryTableViewCell.swift in Sources */,
 				F71D206F211D285A00C3132E /* ExperiencePayload.swift in Sources */,
+				F7FBAFFD2122788D004EDA1F /* DesignableView.swift in Sources */,
 				F7F8509C21211DD40080B3A7 /* JsonCafeRootClass.swift in Sources */,
 				F71D206D211D285A00C3132E /* Experience.swift in Sources */,
 				F70124CA21192EF500FB6555 /* ViewController.swift in Sources */,

@@ -1,33 +1,43 @@
 PODS:
   - Alamofire (4.7.3)
   - IQKeyboardManager (6.1.1)
+  - IQKeyboardManagerSwift (6.1.1)
   - RxCocoa (4.2.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.2.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
   - SwiftSVG (2.1.5)
 
 DEPENDENCIES:
   - Alamofire
   - IQKeyboardManager
+  - IQKeyboardManagerSwift
   - RxCocoa
   - RxSwift
+  - SDWebImage (~> 4.4.1)
   - SwiftSVG (~> 2.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - IQKeyboardManager
+    - IQKeyboardManagerSwift
     - RxCocoa
     - RxSwift
+    - SDWebImage
     - SwiftSVG
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SwiftSVG: 9d78f41396a921c210ce9898ada05c85d412acb8
 
-PODFILE CHECKSUM: 3a089038343a2240782a6877a1ca8f8ac833e2cb
+PODFILE CHECKSUM: d4ddffd2d5f4151545933da7b9716c3bf77ed871
 
 COCOAPODS: 1.5.3

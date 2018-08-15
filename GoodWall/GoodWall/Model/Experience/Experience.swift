@@ -60,6 +60,10 @@ class Experience : NSObject, NSCoding{
         timelineDate = dictionary["timeline_date"] as? String
         title = dictionary["title"] as? String
         video = dictionary["video"] as? AnyObject
+        pictures = dictionary["pictures"] as? [Int]
+        comments = dictionary["comments"] as? [Int]
+            
+        
     }
 
     /**
@@ -130,6 +134,17 @@ class Experience : NSObject, NSCoding{
         }
         if video != nil{
             dictionary["video"] = video
+        }
+        if pictures != nil{
+         dictionary["pictures"] = pictures
+        }else {
+            pictures = [Int]()
+        }
+        
+        if comments != nil{
+            dictionary["comments"] = comments
+        }else{
+            comments = [Int]()
         }
         return dictionary
     }

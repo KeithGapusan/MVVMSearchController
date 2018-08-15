@@ -12,6 +12,8 @@ class ExperienceViewModel: NSObject {
     var listExperience = [Experience]()
     var filteredExperience = [Experience]()
     var rootExperienceModel : ExperienceRootClass?
+    var listOfPictures = [ExperiencePicture]()
+    var filteredPictures = [ExperiencePicture]()
     public static let shared = ExperienceViewModel()
     
     func numberOfRowsInSection(searchIsActive : Bool) -> Int{
@@ -31,6 +33,8 @@ class ExperienceViewModel: NSObject {
         if isActive{
             return filteredExperience[indexPathRow]
         }else{
+          //   print("images = \(listExperience[indexPathRow].pictures)  == )) ")
+          //  print("images = \(listExperience[indexPathRow].toDictionary())  == )) ")
             return listExperience[indexPathRow]
         }
         
@@ -42,6 +46,20 @@ class ExperienceViewModel: NSObject {
         }
         
         filteredExperience = filtered
+        
+    }
+    
+    func getListOfPictures(_ searchById: [Int]) -> [ExperiencePicture]{
+        var experience = [ExperiencePicture]()
+        for id in searchById{
+            let filtered = self.listOfPictures.filter {
+                
+                String($0.id).uppercased().contains(String(id))
+            }
+            experience.append(filtered[0])
+        }
+        self.filteredPictures = experience
+        return self.filteredPictures
         
     }
     
@@ -59,6 +77,7 @@ class ExperienceViewModel: NSObject {
                         }else{
                             self.rootExperienceModel = ExperienceRootClass.init(fromDictionary: dataDictionary!)
                             self.listExperience = (self.rootExperienceModel?.payload.data.experiences)!
+                            self.listOfPictures = (self.rootExperienceModel?.payload.data.pictures)!
 //                            for data in json!{
 //                                self?.listCountry.append(Country.init(data as [String:Any])!)
 //                            }
