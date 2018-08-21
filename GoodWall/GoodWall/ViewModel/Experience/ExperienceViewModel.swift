@@ -7,21 +7,31 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
 class ExperienceViewModel: NSObject {
-    var listExperience = [Experience]()
-    var filteredExperience = [Experience]()
     var rootExperienceModel : ExperienceRootClass?
-    var listOfPictures = [ExperiencePicture]()
-    var filteredPictures = [ExperiencePicture]()
+    var rootExperienceModel2 : Variable<ExperienceRootClass>?
+    var listExperience : Variable<[Experience]> = Variable([])
+    var filteredExperience : Variable<[Experience]> = Variable([])
+    
+    var listComments : Variable<[ExperienceComment]> = Variable([])
+    var filteredComments : Variable<[ExperienceComment]> = Variable([])
+    
+    var listOfPictures : Variable<[ExperiencePicture]> = Variable([])
+    var filteredPictures : Variable<[ExperiencePicture]> = Variable([])
+   
+    let disposeBag = DisposeBag()
+    
     public static let shared = ExperienceViewModel()
     
     func numberOfRowsInSection(searchIsActive : Bool) -> Int{
         if searchIsActive{
-            return filteredExperience.count
+            return filteredExperience.value.count
             
         }else{
-            return listExperience.count
+            return listExperience.value.count
         }
     }
     
@@ -29,79 +39,63 @@ class ExperienceViewModel: NSObject {
         return 1
     }
     
+    func getDataCommentInRow(_ indexPathRow : Int ) -> Variable<[ExperienceComment]>{
+        let searchById = listExperience.value[indexPathRow].comments
+        var comments = [ExperienceComment]()
+        for id in searchById!{
+            let filtered = self.listComments.value.filter {
+                String($0.id).uppercased().contains(String(id))
+            }
+            comments.append(filtered[0])
+        }
+        self.filteredComments.value = comments
+        return   self.filteredComments
+    }
+    
     func getDataAtRow(_ indexPathRow : Int ,  isActive : Bool) -> Experience{
         if isActive{
-            return filteredExperience[indexPathRow]
+            return filteredExperience.value[indexPathRow]
         }else{
-          //   print("images = \(listExperience[indexPathRow].pictures)  == )) ")
-          //  print("images = \(listExperience[indexPathRow].toDictionary())  == )) ")
-            return listExperience[indexPathRow]
+            return listExperience.value[indexPathRow]
         }
-        
     }
     func getFilteredData(_ searchByExperice:String){
-        
-        let filtered = listExperience.filter {
-            ($0.title!.uppercased().contains(searchByExperice.uppercased()))
-        }
-        
-        filteredExperience = filtered
-        
+       _ = listExperience.asObservable()
+            .map{
+                $0.filter{$0.title.uppercased().contains(searchByExperice.uppercased())}
+        }.bind(to: self.filteredExperience).disposed(by: disposeBag)
     }
     
     func getListOfPictures(_ searchById: [Int]) -> [ExperiencePicture]{
         var experience = [ExperiencePicture]()
         for id in searchById{
-            let filtered = self.listOfPictures.filter {
+            let filtered = self.listOfPictures.value.filter {
                 
                 String($0.id).uppercased().contains(String(id))
             }
             experience.append(filtered[0])
         }
-        self.filteredPictures = experience
-        return self.filteredPictures
+        self.filteredPictures.value = experience
+        return self.filteredPictures.value
         
     }
     
     func fetchAllExpericeData(_  completion : @escaping (_ error : Error? , _ messageResult :[String:Any]?) -> () ) {
         
         APIHandler.shared.getDictionaryOfData("https://api.myjson.com/bins/11dz98") { (dataDictionary, error) in
-         
-           // print(data.toDictionary())
-           // var toDict = data.toDictionary()
-        
-            
                         if error != nil {
                             print("an error accured")
                             completion(error , nil)
                         }else{
                             self.rootExperienceModel = ExperienceRootClass.init(fromDictionary: dataDictionary!)
-                            self.listExperience = (self.rootExperienceModel?.payload.data.experiences)!
-                            self.listOfPictures = (self.rootExperienceModel?.payload.data.pictures)!
-//                            for data in json!{
-//                                self?.listCountry.append(Country.init(data as [String:Any])!)
-//                            }
-                            completion(nil , nil)
-                        }
-            
-//            for experience in rootExperienceModel.payload.data.experiences{
-//                print(experience.title)
-//            }
-            //print("sssss \(root.payload.data.experiences as! [[String:Any]])")
+                            self.listExperience.value = (self.rootExperienceModel?.payload.data.experiences)!
+                            self.listOfPictures.value = (self.rootExperienceModel?.payload.data.pictures)!
+                            self.listComments.value = (self.rootExperienceModel?.payload.data.comments)!
+                            self.rootExperienceModel2?.value =  ExperienceRootClass.init(fromDictionary: dataDictionary!)
+                    }
+                    completion(nil , nil)
+            }
         }
         
-//        APIHandler.shared.getListOfCountry(Constant.baseUrl) {[weak self] (json, error) in
-//            if error != nil {
-//                print("an error accured")
-//                completion(error , nil)
-//            }else{
-//
-//
-//                for data in json!{
-//                    self?.listCountry.append(Country.init(data as [String:Any])!)
-//                }
-//                completion(nil , nil)
-//            }
-//        }
-    }
+    
 }

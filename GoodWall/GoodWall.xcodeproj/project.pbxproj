@@ -9,17 +9,19 @@
 /* Begin PBXBuildFile section */
 		4DB451B1C46E384CCD5CEC3E /* Pods_GoodWallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9218740A64894EDAA4BD6D1 /* Pods_GoodWallUITests.framework */; };
 		53AF97F621204DA500E2C114 /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AF97F521204DA500E2C114 /* ExperienceViewModel.swift */; };
+		53EB1C272129E17100E2CD27 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB1C252129E17100E2CD27 /* CommentCell.swift */; };
+		53EB1C282129E17100E2CD27 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EB1C262129E17100E2CD27 /* CommentCell.xib */; };
+		53EB1C2B2129E83F00E2CD27 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB1C2A2129E83F00E2CD27 /* CommentViewController.swift */; };
+		53EB1C2E2129F5C000E2CD27 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB1C2D2129F5C000E2CD27 /* CommentViewModel.swift */; };
 		5BB738208792A088CE15049C /* Pods_GoodWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9F0D1E484A8D6EDBB2711E /* Pods_GoodWall.framework */; };
 		9EBA953C9E2D2E27B9D6799D /* Pods_GoodWallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EF74D973FCC29FC9DA4CE7 /* Pods_GoodWallTests.framework */; };
 		F70124C821192EF500FB6555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124C721192EF500FB6555 /* AppDelegate.swift */; };
 		F70124CA21192EF500FB6555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124C921192EF500FB6555 /* ViewController.swift */; };
-		F70124CD21192EF500FB6555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70124CB21192EF500FB6555 /* Main.storyboard */; };
 		F70124CF21192EF500FB6555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70124CE21192EF500FB6555 /* Assets.xcassets */; };
 		F70124D221192EF500FB6555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70124D021192EF500FB6555 /* LaunchScreen.storyboard */; };
 		F70124DD21192EF500FB6555 /* GoodWallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124DC21192EF500FB6555 /* GoodWallTests.swift */; };
 		F70124E821192EF500FB6555 /* GoodWallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70124E721192EF500FB6555 /* GoodWallUITests.swift */; };
 		F70124F621192F4700FB6555 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F70124F521192F4700FB6555 /* Podfile */; };
-		F70125012119305A00FB6555 /* Country.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70125002119305A00FB6555 /* Country.storyboard */; };
 		F70125032119308800FB6555 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70125022119308800FB6555 /* CountryListViewController.swift */; };
 		F7012507211931A700FB6555 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7012505211931A700FB6555 /* CountryTableViewCell.swift */; };
 		F7012508211931A700FB6555 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7012506211931A700FB6555 /* CountryTableViewCell.xib */; };
@@ -169,9 +171,6 @@
 		F71D217B211D725700C3132E /* Chevron-Up-Circle-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20FA211D725700C3132E /* Chevron-Up-Circle-10.svg */; };
 		F71D217C211D725700C3132E /* Channel-Secret-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = F71D20FB211D725700C3132E /* Channel-Secret-12.svg */; };
 		F74EDEE0211C0C5900D0F498 /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74EDEDF211C0C5900D0F498 /* Tab.storyboard */; };
-		F7F8509A21211DD40080B3A7 /* JsonCafeCustArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */; };
-		F7F8509B21211DD40080B3A7 /* JsonCafeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */; };
-		F7F8509C21211DD40080B3A7 /* JsonCafeRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */; };
 		F7FBAFFD2122788D004EDA1F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FBAFFC2122788C004EDA1F /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
@@ -195,6 +194,10 @@
 /* Begin PBXFileReference section */
 		1445C135CD1A6F79935D7ABA /* Pods-GoodWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall.release.xcconfig"; sourceTree = "<group>"; };
 		53AF97F521204DA500E2C114 /* ExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewModel.swift; sourceTree = "<group>"; };
+		53EB1C252129E17100E2CD27 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		53EB1C262129E17100E2CD27 /* CommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		53EB1C2A2129E83F00E2CD27 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		53EB1C2D2129F5C000E2CD27 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
 		56859A2C384FB5D0A2CB3DC7 /* Pods-GoodWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallTests/Pods-GoodWallTests.release.xcconfig"; sourceTree = "<group>"; };
 		62AD98221038314E74879A87 /* Pods-GoodWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodWallTests/Pods-GoodWallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		62EF74D973FCC29FC9DA4CE7 /* Pods_GoodWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,7 +209,6 @@
 		F70124C421192EF500FB6555 /* GoodWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70124C721192EF500FB6555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F70124C921192EF500FB6555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F70124CC21192EF500FB6555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F70124CE21192EF500FB6555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F70124D121192EF500FB6555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70124D321192EF500FB6555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -217,7 +219,6 @@
 		F70124E721192EF500FB6555 /* GoodWallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWallUITests.swift; sourceTree = "<group>"; };
 		F70124E921192EF500FB6555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F70124F521192F4700FB6555 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F70125002119305A00FB6555 /* Country.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Country.storyboard; sourceTree = "<group>"; };
 		F70125022119308800FB6555 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
 		F7012505211931A700FB6555 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		F7012506211931A700FB6555 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
@@ -367,9 +368,6 @@
 		F71D20FA211D725700C3132E /* Chevron-Up-Circle-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Chevron-Up-Circle-10.svg"; sourceTree = "<group>"; };
 		F71D20FB211D725700C3132E /* Channel-Secret-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Channel-Secret-12.svg"; sourceTree = "<group>"; };
 		F74EDEDF211C0C5900D0F498 /* Tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab.storyboard; sourceTree = "<group>"; };
-		F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeCustArray.swift; sourceTree = "<group>"; };
-		F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeObject.swift; sourceTree = "<group>"; };
-		F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCafeRootClass.swift; sourceTree = "<group>"; };
 		F7FBAFFC2122788C004EDA1F /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -407,6 +405,31 @@
 				53AF97F521204DA500E2C114 /* ExperienceViewModel.swift */,
 			);
 			path = Experience;
+			sourceTree = "<group>";
+		};
+		53EB1C242129E14E00E2CD27 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				53EB1C252129E17100E2CD27 /* CommentCell.swift */,
+				53EB1C262129E17100E2CD27 /* CommentCell.xib */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		53EB1C292129E81C00E2CD27 /* CommentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53EB1C2A2129E83F00E2CD27 /* CommentViewController.swift */,
+			);
+			path = CommentViewController;
+			sourceTree = "<group>";
+		};
+		53EB1C2C2129F59900E2CD27 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				53EB1C2D2129F5C000E2CD27 /* CommentViewModel.swift */,
+			);
+			path = Comment;
 			sourceTree = "<group>";
 		};
 		97BF293FFE0D4F79C3A4534D /* Frameworks */ = {
@@ -464,7 +487,6 @@
 				F70124F721192F6100FB6555 /* View */,
 				F70124F521192F4700FB6555 /* Podfile */,
 				F70124C921192EF500FB6555 /* ViewController.swift */,
-				F70124CB21192EF500FB6555 /* Main.storyboard */,
 				F70124CE21192EF500FB6555 /* Assets.xcassets */,
 				F70124D021192EF500FB6555 /* LaunchScreen.storyboard */,
 				F70124D321192EF500FB6555 /* Info.plist */,
@@ -504,6 +526,7 @@
 		F70124F821192F6500FB6555 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				53EB1C2C2129F59900E2CD27 /* Comment */,
 				53AF97F421204D7D00E2C114 /* Experience */,
 				F70125092119360000FB6555 /* CountryViewModel.swift */,
 			);
@@ -513,7 +536,6 @@
 		F70124F921192F6B00FB6555 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F7F8509621211DCE0080B3A7 /* New Group */,
 				F71D205E211D283D00C3132E /* Experience */,
 				F701250D2119363000FB6555 /* Country.swift */,
 			);
@@ -549,6 +571,7 @@
 		F70124FD21192F9B00FB6555 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				53EB1C242129E14E00E2CD27 /* Comments */,
 				F71D2074211D5A2600C3132E /* ExperienceCell */,
 				F70125042119318400FB6555 /* CountryCell */,
 			);
@@ -558,6 +581,7 @@
 		F70124FE21192FA200FB6555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				53EB1C292129E81C00E2CD27 /* CommentViewController */,
 				F71D2071211D5A0100C3132E /* ExperienceViewController */,
 				F70125022119308800FB6555 /* CountryListViewController.swift */,
 			);
@@ -567,7 +591,6 @@
 		F70124FF2119303C00FB6555 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				F70125002119305A00FB6555 /* Country.storyboard */,
 				F74EDEDF211C0C5900D0F498 /* Tab.storyboard */,
 			);
 			path = Storyboards;
@@ -783,16 +806,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		F7F8509621211DCE0080B3A7 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				F7F8509721211DD30080B3A7 /* JsonCafeCustArray.swift */,
-				F7F8509821211DD30080B3A7 /* JsonCafeObject.swift */,
-				F7F8509921211DD40080B3A7 /* JsonCafeRootClass.swift */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -960,7 +973,6 @@
 				F71D215A211D725700C3132E /* Company-24.svg in Resources */,
 				F71D2112211D725700C3132E /* SMS.svg in Resources */,
 				F71D215D211D725700C3132E /* Flag-18.svg in Resources */,
-				F70125012119305A00FB6555 /* Country.storyboard in Resources */,
 				F71D211C211D725700C3132E /* Ambassador-18.svg in Resources */,
 				F71D2116211D725700C3132E /* Check-10.svg in Resources */,
 				F71D216B211D725700C3132E /* Experience-5-24.svg in Resources */,
@@ -985,6 +997,7 @@
 				F71D2130211D725700C3132E /* X-Circle-12.svg in Resources */,
 				F71D2174211D725700C3132E /* Company-18.svg in Resources */,
 				F71D216F211D725700C3132E /* Message-18.svg in Resources */,
+				53EB1C282129E17100E2CD27 /* CommentCell.xib in Resources */,
 				F71D2158211D725700C3132E /* Keyboard-18.svg in Resources */,
 				F71D217B211D725700C3132E /* Chevron-Up-Circle-10.svg in Resources */,
 				F71D217C211D725700C3132E /* Channel-Secret-12.svg in Resources */,
@@ -1014,7 +1027,6 @@
 				F71D2107211D725700C3132E /* Gem-24.svg in Resources */,
 				F71D2118211D725700C3132E /* Filter-18.svg in Resources */,
 				F71D2161211D725700C3132E /* Lightning-12.svg in Resources */,
-				F70124CD21192EF500FB6555 /* Main.storyboard in Resources */,
 				F71D2145211D725700C3132E /* Settings-Sliders-12.svg in Resources */,
 				F71D2137211D725700C3132E /* To-Do-18.svg in Resources */,
 				F71D210D211D725700C3132E /* Cake-18.svg in Resources */,
@@ -1106,7 +1118,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GoodWall/Pods-GoodWall-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -1116,7 +1127,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -1152,22 +1162,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EB1C2B2129E83F00E2CD27 /* CommentViewController.swift in Sources */,
 				F71D2077211D5ACA00C3132E /* ExperienceTableViewCell.swift in Sources */,
 				F71D206C211D285A00C3132E /* ExperienceUser.swift in Sources */,
-				F7F8509A21211DD40080B3A7 /* JsonCafeCustArray.swift in Sources */,
-				F7F8509B21211DD40080B3A7 /* JsonCafeObject.swift in Sources */,
 				F71D206E211D285A00C3132E /* ExperienceComment.swift in Sources */,
+				53EB1C272129E17100E2CD27 /* CommentCell.swift in Sources */,
 				F701250E2119363000FB6555 /* Country.swift in Sources */,
 				F7012507211931A700FB6555 /* CountryTableViewCell.swift in Sources */,
 				F71D206F211D285A00C3132E /* ExperiencePayload.swift in Sources */,
 				F7FBAFFD2122788D004EDA1F /* DesignableView.swift in Sources */,
-				F7F8509C21211DD40080B3A7 /* JsonCafeRootClass.swift in Sources */,
 				F71D206D211D285A00C3132E /* Experience.swift in Sources */,
 				F70124CA21192EF500FB6555 /* ViewController.swift in Sources */,
 				F71D2070211D285A00C3132E /* ExperienceData.swift in Sources */,
 				F70125122119365200FB6555 /* Constant.swift in Sources */,
 				F71D206A211D285A00C3132E /* ExperienceRootClass.swift in Sources */,
 				F70125032119308800FB6555 /* CountryListViewController.swift in Sources */,
+				53EB1C2E2129F5C000E2CD27 /* CommentViewModel.swift in Sources */,
 				53AF97F621204DA500E2C114 /* ExperienceViewModel.swift in Sources */,
 				F71D206B211D285A00C3132E /* ExperiencePicture.swift in Sources */,
 				F71D2073211D5A1400C3132E /* ExperienceViewController.swift in Sources */,
@@ -1211,14 +1221,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F70124CB21192EF500FB6555 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F70124CC21192EF500FB6555 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F70124D021192EF500FB6555 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
