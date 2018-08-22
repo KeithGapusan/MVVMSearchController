@@ -17,10 +17,11 @@ class ExperienceViewModel: NSObject {
     var filteredExperience : Variable<[Experience]> = Variable([])
     
     var listComments : Variable<[ExperienceComment]> = Variable([])
-    var filteredComments : Variable<[ExperienceComment]> = Variable([])
+  
     
     var listOfPictures : Variable<[ExperiencePicture]> = Variable([])
     var filteredPictures : Variable<[ExperiencePicture]> = Variable([])
+    var data : Variable<ExperienceData>?
    
     let disposeBag = DisposeBag()
     
@@ -40,6 +41,7 @@ class ExperienceViewModel: NSObject {
     }
     
     func getDataCommentInRow(_ indexPathRow : Int ) -> Variable<[ExperienceComment]>{
+        let filteredComments : Variable<[ExperienceComment]> = Variable([])
         let searchById = listExperience.value[indexPathRow].comments
         var comments = [ExperienceComment]()
         for id in searchById!{
@@ -48,8 +50,8 @@ class ExperienceViewModel: NSObject {
             }
             comments.append(filtered[0])
         }
-        self.filteredComments.value = comments
-        return   self.filteredComments
+        filteredComments.value = comments
+        return  filteredComments
     }
     
     func getDataAtRow(_ indexPathRow : Int ,  isActive : Bool) -> Experience{
@@ -92,6 +94,7 @@ class ExperienceViewModel: NSObject {
                             self.listOfPictures.value = (self.rootExperienceModel?.payload.data.pictures)!
                             self.listComments.value = (self.rootExperienceModel?.payload.data.comments)!
                             self.rootExperienceModel2?.value =  ExperienceRootClass.init(fromDictionary: dataDictionary!)
+                            self.data?.value  = (self.rootExperienceModel?.payload.data)!
                     }
                     completion(nil , nil)
             }

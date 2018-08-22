@@ -33,6 +33,7 @@ class ExperienceViewController: UIViewController {
     }
     
     private func setupExpericenceCell() {
+        viewModel.data?.value.experiences
         viewModel.listExperience.asObservable().bind(to: tableView.rx.items(cellIdentifier: cellExperienceTableViewCell.getCellId(), cellType: ExperienceTableViewCell.self)){
             row , data, cell in
             self.configureCell(data, row: row, cell: cell, viewModel: self.viewModel)
@@ -41,7 +42,7 @@ class ExperienceViewController: UIViewController {
             if filtered.value.count > 0 {
                 cell.setCommentTableView(row: row, filtered: filtered)
                 cell.tableViewOffset = self.storedOffsets[row] ?? 0
-                 cell.tableViewComments.reloadData()
+                cell.tableViewComments.reloadData()
             }else{
                 cell.tableViewComments.reloadData()
             }
@@ -57,7 +58,7 @@ class ExperienceViewController: UIViewController {
         cell.lblDetails.text = data.body ?? ""
         cell.btnComments.setTitle("View \(String(describing: data.comments.count )) comments.", for: .normal)
 //        print(data.comments)
-        cell.imgViewBanner.sd_setImage(with: URL(string: "https://placemat.imgix.net/placeholder_images/images/000/000/159/original/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg?ixlib=rb-1.0.0&w=250&h=&fm=auto&crop=faces%2Centropy&fit=crop&txt=250%C3%97&txtclr=BFFF&txtalign=middle%2Ccenter&txtfit=max&txtsize=42&txtfont=Avenir+Next+Demi%2CBold&bm=multiply&blend=ACACAC&s=8e9e12d71cd9edf6cebb619c99760cd7"), placeholderImage: UIImage(named: "default_featured_image"))
+        cell.imgViewBanner.sd_setImage(with: URL(string: "http://lorempixel.com/400/200/"))
         
         cell.imgUserProfile.sd_setImage(with: URL(string: "https://placem.at/people?w=500"), placeholderImage: UIImage(named: "default_featured_image"))
     }
